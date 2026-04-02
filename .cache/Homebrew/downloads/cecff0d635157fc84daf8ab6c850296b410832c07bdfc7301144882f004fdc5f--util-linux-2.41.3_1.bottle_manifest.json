@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:147ca8de33a4b5b087b21455e4c3757e5bd855eae3e2cbdf46ff3553b32af244",
+      "size": 4712,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.41.3_1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "f3ed9fde08fe40c39f4f2ea8b1ae02177d62165968d5fa7f5197f97d75e696a6",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "9903202",
+        "sh.brew.bottle.installed_size": "40417510",
+        "sh.brew.license": "BSD-3-Clause AND BSD-4-Clause-UC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-Homebrew-public-domain",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-84-g589bfc7\",\"changed_files\":[\"lib/pkgconfig/blkid.pc\",\"lib/pkgconfig/fdisk.pc\",\"lib/pkgconfig/lastlog2.pc\",\"lib/pkgconfig/mount.pc\",\"lib/pkgconfig/smartcols.pc\",\"lib/pkgconfig/uuid.pc\"],\"source_modified_time\":1765803868,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libxcrypt\",\"version\":\"4.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3\",\"declared_directly\":true},{\"full_name\":\"sqlite\",\"version\":\"3.51.2\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.2_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/setpgid,bin/renice,bin/uuidparse,bin/coresched,bin/ipcmk,bin/rev,bin/lsns,bin/exch,bin/ipcrm,bin/linux32,bin/hexdump,bin/look,bin/dmesg,bin/uname26,bin/fadvise,bin/setsid,bin/scriptlive,bin/scriptreplay,bin/findmnt,bin/more,bin/taskset,bin/lastlog2,bin/mount,bin/col,bin/setarch,bin/linux64,bin/chrt,bin/hardlink,bin/whereis,bin/rename,bin/waitpid,bin/unshare,bin/logger,bin/colrm,bin/enosys,bin/ul,bin/isosize,bin/lastb,bin/bits,bin/uuidgen,bin/lsirq,bin/mcookie,bin/lsmem,bin/pipesz,bin/mesg,bin/ipcs,bin/lsipc,bin/fallocate,bin/umount,bin/utmpdump,bin/cal,bin/uclampset,bin/lscpu,bin/column,bin/namei,bin/script,bin/chmem,bin/flock,bin/getopt,bin/mountpoint,bin/fincore,bin/last,bin/lsclocks,bin/lsfd,bin/wall,bin/irqtop,bin/ionice,bin/wdctl,bin/setterm,bin/prlimit,bin/lslogins,bin/nsenter,bin/choom,bin/lsblk,bin/eject,bin/lslocks,bin/colcrt,sbin/mkfs.cramfs,sbin/addpart,sbin/uuidd,sbin/blkpr,sbin/ctrlaltdel,sbin/cfdisk,sbin/resizepart,sbin/mkfs.minix,sbin/mkfs,sbin/fstrim,sbin/swapon,sbin/sfdisk,sbin/ldattach,sbin/swapoff,sbin/fsck.minix,sbin/fdisk,sbin/fsck,sbin/losetup,sbin/zramctl,sbin/blkid,sbin/fsck.cramfs,sbin/swaplabel,sbin/findfs,sbin/rfkill,sbin/fsfreeze,sbin/blkdiscard,sbin/blockdev,sbin/delpart,sbin/switch_root,sbin/mkfs.bfs,sbin/chcpu,sbin/agetty,sbin/rtcwake,sbin/blkzone,sbin/mkswap,sbin/pivot_root,sbin/hwclock,sbin/readprofile,sbin/nologin,sbin/sulogin,sbin/wipefs,sbin/partx"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:03aeae2a1ed9929f129173b498bbafaf805b35240ed8a4361903fadf5d3708fa",
+      "size": 3227,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.41.3_1.arm64_sequoia",
+        "sh.brew.bottle.digest": "3513c9599542ce8bb3efc648cb5fb382cec57cc8e7132cd0688406e011e961a6",
+        "sh.brew.bottle.size": "5525651",
+        "sh.brew.bottle.installed_size": "18271426",
+        "sh.brew.license": "BSD-3-Clause AND BSD-4-Clause-UC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-Homebrew-public-domain",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-84-g589bfc7\",\"changed_files\":[\"lib/pkgconfig/blkid.pc\",\"lib/pkgconfig/fdisk.pc\",\"lib/pkgconfig/smartcols.pc\",\"lib/pkgconfig/uuid.pc\"],\"source_modified_time\":1765803868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/hardlink,bin/scriptreplay,bin/colcrt,bin/hexdump,bin/mesg,bin/logger,bin/renice,bin/setpgid,bin/namei,bin/getopt,bin/isosize,bin/colrm,bin/uuidparse,bin/setsid,bin/column,bin/mcookie,bin/cal,bin/rev,bin/ul,bin/rename,bin/flock,bin/whereis,bin/uuidgen,bin/look,sbin/mkfs.bfs,sbin/fdisk,sbin/cfdisk,sbin/fsck.minix,sbin/swaplabel,sbin/wipefs,sbin/mkfs.cramfs,sbin/mkfs,sbin/mkfs.minix,sbin/sfdisk,sbin/findfs,sbin/fsck.cramfs,sbin/nologin,sbin/mkswap,sbin/blkid"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:71d0d9c5dfd8b863d8b1357286bf531230b19c343880a111b161efe97856e83a",
+      "size": 3224,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.41.3_1.arm64_sonoma",
+        "sh.brew.bottle.digest": "0dccbc7953bf922c977fe886b74b627b393534ebae3486686dfc75ed52755a0b",
+        "sh.brew.bottle.size": "5524303",
+        "sh.brew.bottle.installed_size": "18284482",
+        "sh.brew.license": "BSD-3-Clause AND BSD-4-Clause-UC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-Homebrew-public-domain",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-84-g589bfc7\",\"changed_files\":[\"lib/pkgconfig/blkid.pc\",\"lib/pkgconfig/fdisk.pc\",\"lib/pkgconfig/smartcols.pc\",\"lib/pkgconfig/uuid.pc\"],\"source_modified_time\":1765803868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/hardlink,bin/scriptreplay,bin/colcrt,bin/hexdump,bin/mesg,bin/logger,bin/renice,bin/setpgid,bin/namei,bin/getopt,bin/isosize,bin/colrm,bin/uuidparse,bin/setsid,bin/column,bin/mcookie,bin/cal,bin/rev,bin/ul,bin/rename,bin/flock,bin/whereis,bin/uuidgen,bin/look,sbin/mkfs.bfs,sbin/fdisk,sbin/cfdisk,sbin/fsck.minix,sbin/swaplabel,sbin/wipefs,sbin/mkfs.cramfs,sbin/mkfs,sbin/mkfs.minix,sbin/sfdisk,sbin/findfs,sbin/fsck.cramfs,sbin/nologin,sbin/mkswap,sbin/blkid"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8d7ffecca6c88fbab77f03ce5f3e70736c52fd550b1c59f12e79d24b8db7b9f4",
+      "size": 3219,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.41.3_1.arm64_tahoe",
+        "sh.brew.bottle.digest": "a8603b1c1262144381fa966b199cc44cb741c78a273a89be1cad63ab7a683f98",
+        "sh.brew.bottle.size": "5518270",
+        "sh.brew.bottle.installed_size": "18249696",
+        "sh.brew.license": "BSD-3-Clause AND BSD-4-Clause-UC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-Homebrew-public-domain",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-84-g589bfc7\",\"changed_files\":[\"lib/pkgconfig/blkid.pc\",\"lib/pkgconfig/fdisk.pc\",\"lib/pkgconfig/smartcols.pc\",\"lib/pkgconfig/uuid.pc\"],\"source_modified_time\":1765803868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/hardlink,bin/scriptreplay,bin/colcrt,bin/hexdump,bin/mesg,bin/logger,bin/renice,bin/setpgid,bin/namei,bin/getopt,bin/isosize,bin/colrm,bin/uuidparse,bin/setsid,bin/column,bin/mcookie,bin/cal,bin/rev,bin/ul,bin/rename,bin/flock,bin/whereis,bin/uuidgen,bin/look,sbin/mkfs.bfs,sbin/fdisk,sbin/cfdisk,sbin/fsck.minix,sbin/swaplabel,sbin/wipefs,sbin/mkfs.cramfs,sbin/mkfs,sbin/mkfs.minix,sbin/sfdisk,sbin/findfs,sbin/fsck.cramfs,sbin/nologin,sbin/mkswap,sbin/blkid"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d908dc33dbf2e6094cd60a52c50c5534a11a977a40b1025208caa3ad291e3159",
+      "size": 3208,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.41.3_1.sonoma",
+        "sh.brew.bottle.digest": "a67370fc42a725684d4efe1c0628b648a606260daa04e586129213271d8db573",
+        "sh.brew.bottle.size": "5443176",
+        "sh.brew.bottle.installed_size": "16159290",
+        "sh.brew.license": "BSD-3-Clause AND BSD-4-Clause-UC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-Homebrew-public-domain",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-84-g589bfc7\",\"changed_files\":[\"lib/pkgconfig/blkid.pc\",\"lib/pkgconfig/fdisk.pc\",\"lib/pkgconfig/smartcols.pc\",\"lib/pkgconfig/uuid.pc\"],\"source_modified_time\":1765803868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/hardlink,bin/scriptreplay,bin/colcrt,bin/hexdump,bin/mesg,bin/logger,bin/renice,bin/setpgid,bin/namei,bin/getopt,bin/isosize,bin/colrm,bin/uuidparse,bin/setsid,bin/column,bin/mcookie,bin/cal,bin/rev,bin/ul,bin/rename,bin/flock,bin/whereis,bin/uuidgen,bin/look,sbin/mkfs.bfs,sbin/fdisk,sbin/cfdisk,sbin/fsck.minix,sbin/swaplabel,sbin/wipefs,sbin/mkfs.cramfs,sbin/mkfs,sbin/mkfs.minix,sbin/sfdisk,sbin/findfs,sbin/fsck.cramfs,sbin/nologin,sbin/mkswap,sbin/blkid"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3ffd9de608e333df94690337b82a1c92d18b5b70e841bb2381660a57ef32665a",
+      "size": 4737,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.41.3_1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "780fd8935ee590bd6b9ad662d5a8e27d25e94174af6dde7a738256c3af723602",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "9250221",
+        "sh.brew.bottle.installed_size": "28409854",
+        "sh.brew.license": "BSD-3-Clause AND BSD-4-Clause-UC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-Homebrew-public-domain",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-84-g589bfc7\",\"changed_files\":[\"lib/pkgconfig/blkid.pc\",\"lib/pkgconfig/fdisk.pc\",\"lib/pkgconfig/lastlog2.pc\",\"lib/pkgconfig/mount.pc\",\"lib/pkgconfig/smartcols.pc\",\"lib/pkgconfig/uuid.pc\"],\"source_modified_time\":1765803868,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libxcrypt\",\"version\":\"4.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.5.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":true},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3\",\"declared_directly\":true},{\"full_name\":\"sqlite\",\"version\":\"3.51.2\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.2_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/lsblk,bin/linux64,bin/cal,bin/lslocks,bin/lsirq,bin/scriptlive,bin/irqtop,bin/lscpu,bin/scriptreplay,bin/colrm,bin/coresched,bin/more,bin/mesg,bin/whereis,bin/rename,bin/uclampset,bin/hexdump,bin/ipcrm,bin/bits,bin/wdctl,bin/unshare,bin/renice,bin/chrt,bin/rev,bin/uuidparse,bin/fallocate,bin/mount,bin/isosize,bin/lsmem,bin/waitpid,bin/nsenter,bin/last,bin/linux32,bin/prlimit,bin/setterm,bin/column,bin/lsclocks,bin/fadvise,bin/enosys,bin/logger,bin/namei,bin/fincore,bin/flock,bin/setsid,bin/lsns,bin/x86_64,bin/setpgid,bin/setarch,bin/colcrt,bin/findmnt,bin/ionice,bin/mcookie,bin/uuidgen,bin/lastb,bin/wall,bin/ul,bin/uname26,bin/dmesg,bin/ipcs,bin/eject,bin/pipesz,bin/lsipc,bin/lsfd,bin/hardlink,bin/i386,bin/mountpoint,bin/lslogins,bin/ipcmk,bin/getopt,bin/lastlog2,bin/look,bin/script,bin/utmpdump,bin/exch,bin/col,bin/chmem,bin/taskset,bin/umount,bin/choom,sbin/cfdisk,sbin/fsck.cramfs,sbin/partx,sbin/ldattach,sbin/blkid,sbin/mkfs,sbin/hwclock,sbin/addpart,sbin/fstrim,sbin/resizepart,sbin/blkzone,sbin/mkfs.minix,sbin/uuidd,sbin/sulogin,sbin/readprofile,sbin/mkfs.bfs,sbin/fsfreeze,sbin/chcpu,sbin/delpart,sbin/losetup,sbin/fsck.minix,sbin/swapon,sbin/pivot_root,sbin/fdisk,sbin/ctrlaltdel,sbin/fsck,sbin/blkdiscard,sbin/nologin,sbin/mkswap,sbin/mkfs.cramfs,sbin/sfdisk,sbin/wipefs,sbin/agetty,sbin/rtcwake,sbin/findfs,sbin/swaplabel,sbin/rfkill,sbin/switch_root,sbin/blkpr,sbin/swapoff,sbin/blockdev,sbin/zramctl"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-07T21:29:14Z",
+    "org.opencontainers.image.description": "Collection of Linux utilities",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/util-linux",
+    "org.opencontainers.image.licenses": "BSD-3-Clause AND BSD-4-Clause-UC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-Homebrew-public-domain",
+    "org.opencontainers.image.ref.name": "2.41.3_1",
+    "org.opencontainers.image.revision": "9b5cb647bcf2299c1d0df3e7a1a9c75ea35ecca1",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/9b5cb647bcf2299c1d0df3e7a1a9c75ea35ecca1/Formula/u/util-linux.rb",
+    "org.opencontainers.image.title": "util-linux",
+    "org.opencontainers.image.url": "https://github.com/util-linux/util-linux",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.41.3_1"
+  }
+}

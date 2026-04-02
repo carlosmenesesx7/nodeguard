@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:745a335f8816e8e67a796eaf5663003dd6e6189b9fc946c95f02d21681f59f21",
+      "size": 4943,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.34.14.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "04c8b27ebaee1afd9ee402252dccbbe959fe03145eb3ca67f4fa67a83c35a9f2",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "23038142",
+        "sh.brew.bottle.installed_size": "160841288",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-111-gfea71fb\",\"changed_files\":[\"libexec/bin/aws\",\"libexec/bin/aws_completer\",\"libexec/bin/distro\",\"libexec/bin/docutils\",\"libexec/bin/jp.py\",\"libexec/bin/rst2html.py\",\"libexec/bin/rst2html4.py\",\"libexec/bin/rst2html5.py\",\"libexec/bin/rst2latex.py\",\"libexec/bin/rst2man.py\",\"libexec/bin/rst2odt.py\",\"libexec/bin/rst2odt_prepstyles.py\",\"libexec/bin/rst2pseudoxml.py\",\"libexec/bin/rst2s5.py\",\"libexec/bin/rst2xetex.py\",\"libexec/bin/rst2xml.py\",\"libexec/bin/rstpep2html.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1774030421,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-03-19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-03-19\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.51.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":false},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20251016-3.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"20251016-3.1_1\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":1,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.12_1\",\"declared_directly\":true},{\"full_name\":\"mandoc\",\"version\":\"1.14.6\",\"revision\":1,\"bottle_rebuild\":1,\"pkg_version\":\"1.14.6_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/aws_completer,bin/aws"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1604d788d2121e47c17eff2ad38e78719e999be6a85a1ed0cbf9fde36b2ee497",
+      "size": 3602,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.34.14.arm64_sequoia",
+        "sh.brew.bottle.digest": "3b10eb0ecf0744ebb6e266654300912500a9a81f12427aaf584738cc4176707e",
+        "sh.brew.bottle.size": "22488841",
+        "sh.brew.bottle.installed_size": "153283939",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-111-gfea71fb\",\"changed_files\":[\"libexec/bin/aws\",\"libexec/bin/aws_completer\",\"libexec/bin/distro\",\"libexec/bin/docutils\",\"libexec/bin/jp.py\",\"libexec/bin/rst2html.py\",\"libexec/bin/rst2html4.py\",\"libexec/bin/rst2html5.py\",\"libexec/bin/rst2latex.py\",\"libexec/bin/rst2man.py\",\"libexec/bin/rst2odt.py\",\"libexec/bin/rst2odt_prepstyles.py\",\"libexec/bin/rst2pseudoxml.py\",\"libexec/bin/rst2s5.py\",\"libexec/bin/rst2xetex.py\",\"libexec/bin/rst2xml.py\",\"libexec/bin/rstpep2html.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1774030421,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-03-19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-03-19\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.51.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.12_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/aws,bin/aws_completer"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a522d33b669cae786fc17ca0662d2841055b767ce8b8261a61daf7eae047905a",
+      "size": 3737,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.34.14.arm64_sonoma",
+        "sh.brew.bottle.digest": "d70f4803fac51f0da7911e7827c56c4f9cf153031c9b56f1c76fd3f33bdc9742",
+        "sh.brew.bottle.size": "22487152",
+        "sh.brew.bottle.installed_size": "153270085",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-111-gfea71fb\",\"changed_files\":[\"libexec/bin/aws\",\"libexec/bin/aws_completer\",\"libexec/bin/distro\",\"libexec/bin/docutils\",\"libexec/bin/jp.py\",\"libexec/bin/rst2html.py\",\"libexec/bin/rst2html4.py\",\"libexec/bin/rst2html5.py\",\"libexec/bin/rst2latex.py\",\"libexec/bin/rst2man.py\",\"libexec/bin/rst2odt.py\",\"libexec/bin/rst2odt_prepstyles.py\",\"libexec/bin/rst2pseudoxml.py\",\"libexec/bin/rst2s5.py\",\"libexec/bin/rst2xetex.py\",\"libexec/bin/rst2xml.py\",\"libexec/bin/rstpep2html.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1774030421,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-03-19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-03-19\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.51.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.5\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.12_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/aws,bin/aws_completer"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b44edbf23b3976b49fbe635bf5710c53bf4f307699e7ebaebe590a5d61e880e0",
+      "size": 3596,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.34.14.arm64_tahoe",
+        "sh.brew.bottle.digest": "f16e1d2925a31918787e8df85bf4b7807a6d02a5702c7d0d9125cf9ef59a9c74",
+        "sh.brew.bottle.size": "22488747",
+        "sh.brew.bottle.installed_size": "153273955",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-111-gfea71fb\",\"changed_files\":[\"libexec/bin/aws\",\"libexec/bin/aws_completer\",\"libexec/bin/distro\",\"libexec/bin/docutils\",\"libexec/bin/jp.py\",\"libexec/bin/rst2html.py\",\"libexec/bin/rst2html4.py\",\"libexec/bin/rst2html5.py\",\"libexec/bin/rst2latex.py\",\"libexec/bin/rst2man.py\",\"libexec/bin/rst2odt.py\",\"libexec/bin/rst2odt_prepstyles.py\",\"libexec/bin/rst2pseudoxml.py\",\"libexec/bin/rst2s5.py\",\"libexec/bin/rst2xetex.py\",\"libexec/bin/rst2xml.py\",\"libexec/bin/rstpep2html.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1774030421,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-03-19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-03-19\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.51.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.12_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26.3\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/aws,bin/aws_completer"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:29bb6ae58ca906175ef7f59a7b1bbf57a37c009d773b29d2176ceca973204f74",
+      "size": 3721,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.34.14.sonoma",
+        "sh.brew.bottle.digest": "721a33621c6562bbe598d42d652881200679e84b2cfbcfbf2392c37a9bfaecda",
+        "sh.brew.bottle.size": "22532444",
+        "sh.brew.bottle.installed_size": "153260688",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-111-gfea71fb\",\"changed_files\":[\"libexec/bin/aws\",\"libexec/bin/aws_completer\",\"libexec/bin/distro\",\"libexec/bin/docutils\",\"libexec/bin/jp.py\",\"libexec/bin/rst2html.py\",\"libexec/bin/rst2html4.py\",\"libexec/bin/rst2html5.py\",\"libexec/bin/rst2latex.py\",\"libexec/bin/rst2man.py\",\"libexec/bin/rst2odt.py\",\"libexec/bin/rst2odt_prepstyles.py\",\"libexec/bin/rst2pseudoxml.py\",\"libexec/bin/rst2s5.py\",\"libexec/bin/rst2xetex.py\",\"libexec/bin/rst2xml.py\",\"libexec/bin/rstpep2html.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1774030421,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-03-19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-03-19\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.51.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.5\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.12_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/aws,bin/aws_completer"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3bce0cde37b4e5287cf5b82b442f2e1f8a59e0ad64059e76d1c9d4090f1ac269",
+      "size": 4948,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.34.14.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "f0da859ca174d6bf789a14f769134e3fe96c635ae9d3d7b739e2b7b46fb2c263",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "23074288",
+        "sh.brew.bottle.installed_size": "160763584",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-111-gfea71fb\",\"changed_files\":[\"libexec/bin/aws\",\"libexec/bin/aws_completer\",\"libexec/bin/distro\",\"libexec/bin/docutils\",\"libexec/bin/jp.py\",\"libexec/bin/rst2html.py\",\"libexec/bin/rst2html4.py\",\"libexec/bin/rst2html5.py\",\"libexec/bin/rst2latex.py\",\"libexec/bin/rst2man.py\",\"libexec/bin/rst2odt.py\",\"libexec/bin/rst2odt_prepstyles.py\",\"libexec/bin/rst2pseudoxml.py\",\"libexec/bin/rst2s5.py\",\"libexec/bin/rst2xetex.py\",\"libexec/bin/rst2xml.py\",\"libexec/bin/rstpep2html.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1774030421,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2026-03-19\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2026-03-19\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.51.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.51.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":false},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20251016-3.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"20251016-3.1_1\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":1,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.12_1\",\"declared_directly\":true},{\"full_name\":\"mandoc\",\"version\":\"1.14.6\",\"revision\":1,\"bottle_rebuild\":1,\"pkg_version\":\"1.14.6_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/aws_completer,bin/aws"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-03-20T20:08:54Z",
+    "org.opencontainers.image.description": "Official Amazon AWS command-line interface",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/awscli",
+    "org.opencontainers.image.licenses": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "2.34.14",
+    "org.opencontainers.image.revision": "d7ef55a2e04e2d339f02502a83470258e1bd0a66",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/d7ef55a2e04e2d339f02502a83470258e1bd0a66/Formula/a/awscli.rb",
+    "org.opencontainers.image.title": "awscli",
+    "org.opencontainers.image.url": "https://aws.amazon.com/cli/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.34.14"
+  }
+}

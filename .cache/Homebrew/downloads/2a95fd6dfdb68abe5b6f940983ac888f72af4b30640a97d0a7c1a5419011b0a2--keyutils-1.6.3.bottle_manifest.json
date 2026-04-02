@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b4655cd362335dc189867e01efc4ae0135917d3c047455ef2949d6b27b5c4b51",
+      "size": 2333,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.3.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "d5b06c4e38d2c4b7decb5b7bc0431b3416993231e5fa688950e4df83686a298d",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "113092",
+        "sh.brew.bottle.installed_size": "557055",
+        "sh.brew.license": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-115-g02ced18\",\"changed_files\":[\".bottle/etc/request-key.conf\",\"lib/pkgconfig/libkeyutils.pc\"],\"source_modified_time\":1594137877,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/keyctl,sbin/request-key,sbin/key.dns_resolver"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f7b9e11e9fab8619e75eaee9d24b6e9250cdb1058c7e9ad61502cd3abf632e1c",
+      "size": 2327,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.3.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "569fc190618bdad81896e66145fe832b1d858644d19c87a59ce417158e0cea7e",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "115344",
+        "sh.brew.bottle.installed_size": "890496",
+        "sh.brew.license": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.25-15-g75de3aa\",\"changed_files\":[\".bottle/etc/request-key.conf\",\"lib/pkgconfig/libkeyutils.pc\"],\"source_modified_time\":1594137877,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/keyctl,sbin/request-key,sbin/key.dns_resolver"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-03-12T21:04:49Z",
+    "org.opencontainers.image.description": "Linux key management utilities",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/keyutils",
+    "org.opencontainers.image.licenses": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "1.6.3",
+    "org.opencontainers.image.revision": "8bcdfda721b2be110b15506b8a2c553617fb1232",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/8bcdfda721b2be110b15506b8a2c553617fb1232/Formula/k/keyutils.rb",
+    "org.opencontainers.image.title": "keyutils",
+    "org.opencontainers.image.url": "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.6.3"
+  }
+}

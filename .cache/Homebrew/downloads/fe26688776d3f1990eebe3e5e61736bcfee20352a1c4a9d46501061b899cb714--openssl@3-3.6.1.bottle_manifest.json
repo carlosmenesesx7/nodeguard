@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4c0304d21d8f677cbf0dbfb91b3497a8ecdee7d43c064c214f282d0277ac1140",
+      "size": 2411,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "8d292df071a77136a7472feeb6cf4ec65035e1327ef5fcc178cfa8443598fdce",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "12166792",
+        "sh.brew.bottle.installed_size": "45508596",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:71cd9d25da0fefa7c9b2252864d33c9eec91a2d9cc872e6f0a4c364ad3f6823e",
+      "size": 2353,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.arm64_sequoia",
+        "sh.brew.bottle.digest": "ec5f544dd01f678d7bd9f5f2aa3f7ae5b8b7859d3e08158e52e02b383c14ef35",
+        "sh.brew.bottle.size": "10903553",
+        "sh.brew.bottle.installed_size": "37624708",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9a84cb113a7d71ddef21c20d51e0bb89a94ce7452561472d81d65a9d7ad132db",
+      "size": 2350,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.arm64_sonoma",
+        "sh.brew.bottle.digest": "d0f784ea2dce63f778a41cc0db641a95f8c46c39e5487bd151cad20760723b13",
+        "sh.brew.bottle.size": "10871872",
+        "sh.brew.bottle.installed_size": "37529884",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2d46be7e1a41245740fa547cbde7e6b5772c61f642b48d9d73f47c07b6bdb3f6",
+      "size": 2345,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.arm64_tahoe",
+        "sh.brew.bottle.digest": "05e0b1eb559e584381c881f2bf38e57fc2c1a2603f15937961a3359d8dfd6872",
+        "sh.brew.bottle.size": "10892841",
+        "sh.brew.bottle.installed_size": "37584802",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e8d47b7db3c47d3cd081c374769a32c76e30509743f29b6f08d1cf83b83ca6b2",
+      "size": 2337,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.sequoia",
+        "sh.brew.bottle.digest": "7babfd90026c82c7d9765f90f8f0e0f9b787ea1106bf0c5d0dca6524c09076a5",
+        "sh.brew.bottle.size": "10091552",
+        "sh.brew.bottle.installed_size": "37987301",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"penryn\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:da8a73755d738d35140bce2224bbc616d5dd85162adf11df83690102f6556c99",
+      "size": 2334,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.sonoma",
+        "sh.brew.bottle.digest": "9e28f179957b34d64a95c6de7912f0262fb3b42d2c0fb7607aacfa278c42deb8",
+        "sh.brew.bottle.size": "10050052",
+        "sh.brew.bottle.installed_size": "37883893",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:433b974b829b8236ee4f3376058210b8d022a1a298812fa5204405dd235c48f8",
+      "size": 2329,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.tahoe",
+        "sh.brew.bottle.digest": "c965b30b1122d4fe3a8b7b6eea235a915a0a8fbacf545d4c9e9b42eb559cbcf4",
+        "sh.brew.bottle.size": "10091575",
+        "sh.brew.bottle.installed_size": "37987299",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"penryn\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/c_rehash,bin/openssl"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a636ced37b5941a55346efab2499bb900e7fefeda74e394ff487c8a05f716747",
+      "size": 2416,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.6.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "89ac158da355fc26605808829909a11e23d604f2d70ac7e272f318a71c1eab5c",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "11224092",
+        "sh.brew.bottle.installed_size": "44988825",
+        "sh.brew.license": "Apache-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.12-24-g414e0da\",\"changed_files\":[\"bin/c_rehash\",\"lib/pkgconfig/libcrypto.pc\",\"lib/pkgconfig/libssl.pc\",\"lib/pkgconfig/openssl.pc\"],\"source_modified_time\":1769520834,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/openssl,bin/c_rehash"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-01-27T19:19:12Z",
+    "org.opencontainers.image.description": "Cryptography and SSL/TLS Toolkit",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/openssl@3",
+    "org.opencontainers.image.licenses": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "3.6.1",
+    "org.opencontainers.image.revision": "5c68e17612a16ae9700804da15c50a04d3087477",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/5c68e17612a16ae9700804da15c50a04d3087477/Formula/o/openssl@3.rb",
+    "org.opencontainers.image.title": "openssl@3",
+    "org.opencontainers.image.url": "https://openssl-library.org",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.6.1"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f2989c452025a568fe207169bb08eb243fd38778c8b0da22d0763416bf48fad3",
+      "size": 2379,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.8.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "470de20803e3d667949abd7e9f6d80057cb3859d88faf040c7009b2e0c416941",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "206006",
+        "sh.brew.bottle.installed_size": "641817",
+        "sh.brew.license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-11-gd372d2a\",\"changed_files\":[\"bin/ksba-config\",\"lib/pkgconfig/ksba.pc\"],\"source_modified_time\":1771854062,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/ksba-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:69d2cec4c6f2c8aad76472bceaecd11ca820b0b4f2662efbde3e6c159350d215",
+      "size": 2602,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.8.arm64_sequoia",
+        "sh.brew.bottle.digest": "2b47d6ac53379c370b6d9a03cafea11eb1e95e8bf9dcf11769f8c3c20e046a4b",
+        "sh.brew.bottle.size": "178755",
+        "sh.brew.bottle.installed_size": "541156",
+        "sh.brew.license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-11-gd372d2a\",\"changed_files\":[\"bin/ksba-config\",\"lib/pkgconfig/ksba.pc\"],\"source_modified_time\":1771854062,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ksba-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0f039217e5c1ad08fa688f3c87616f02ace4ab0eaad9eea6dc58718afce4dca8",
+      "size": 2599,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.8.arm64_sonoma",
+        "sh.brew.bottle.digest": "3d6a334dba80647d80cb84875d2e78ca20170bcb7da7b03ea4ebdeb435d18029",
+        "sh.brew.bottle.size": "179548",
+        "sh.brew.bottle.installed_size": "541636",
+        "sh.brew.license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-11-gd372d2a\",\"changed_files\":[\"bin/ksba-config\",\"lib/pkgconfig/ksba.pc\"],\"source_modified_time\":1771854062,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ksba-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ba8da08287a458f12a45005d0785105abddafd99ea3ef270a36e5d7b5ee30516",
+      "size": 2594,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.8.arm64_tahoe",
+        "sh.brew.bottle.digest": "e215941d6b5de0e4f42f1befd1dca741d8892c2d4bbf0b111279d4c407867cc9",
+        "sh.brew.bottle.size": "178560",
+        "sh.brew.bottle.installed_size": "539714",
+        "sh.brew.license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-11-gd372d2a\",\"changed_files\":[\"bin/ksba-config\",\"lib/pkgconfig/ksba.pc\"],\"source_modified_time\":1771854062,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ksba-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1fc0b0fca818c74dbbde11b35fe53dff2f7c76b897649e99760e40505289147d",
+      "size": 2583,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.8.sonoma",
+        "sh.brew.bottle.digest": "82ecf77c9ae90005a5ac695f034b352dcdb75ec0b846dafb17c4746c81ae8d5a",
+        "sh.brew.bottle.size": "181502",
+        "sh.brew.bottle.installed_size": "496654",
+        "sh.brew.license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-11-gd372d2a\",\"changed_files\":[\"bin/ksba-config\",\"lib/pkgconfig/ksba.pc\"],\"source_modified_time\":1771854062,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/ksba-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e8a2c11e894eff0765b67f3f9173a429f1e0b27db6867e45df1903e5c669a822",
+      "size": 2384,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.6.8.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "31eb43893e7dff26f077fc9670f8b6180af7d84aefaf1e1d6883c238eb5e91e0",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "207692",
+        "sh.brew.bottle.installed_size": "609071",
+        "sh.brew.license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.15-11-gd372d2a\",\"changed_files\":[\"bin/ksba-config\",\"lib/pkgconfig/ksba.pc\"],\"source_modified_time\":1771854062,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/ksba-config"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-23T14:48:48Z",
+    "org.opencontainers.image.description": "X.509 and CMS library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libksba",
+    "org.opencontainers.image.licenses": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "1.6.8",
+    "org.opencontainers.image.revision": "248a92060bbe6572662f6feb93663e905bdf803c",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/248a92060bbe6572662f6feb93663e905bdf803c/Formula/lib/libksba.rb",
+    "org.opencontainers.image.title": "libksba",
+    "org.opencontainers.image.url": "https://www.gnupg.org/related_software/libksba/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.6.8"
+  }
+}

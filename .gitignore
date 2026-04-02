@@ -1,0 +1,4 @@
+# Ignorar contenedores y overlays de Podman/Docker
+.local/share/containers/
+*.log
+*.tmp

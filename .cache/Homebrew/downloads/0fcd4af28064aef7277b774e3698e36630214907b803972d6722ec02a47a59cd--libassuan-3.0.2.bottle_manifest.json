@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:01e992d35dc9ad58da416c92a99c6187e668eebc1fb3952671bb2a904289dc93",
+      "size": 2587,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "1430611fe9f337d6a7568a12321f125c567ca8d4d2bdcd7ff0717bdcd82a32dc",
+        "sh.brew.bottle.size": "175763",
+        "sh.brew.bottle.installed_size": "575753",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.21-38-g0c69873\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.23.1\",\"revision\":0,\"pkg_version\":\"0.23.1\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2440c24d11038e84f7dff5ea7abfdd523351496e2ce9dc034f9d5ec00846628d",
+      "size": 2586,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "59e577c969d60c328976822c4d5bdfa5b5b11231453573e9c1bddc308e211126",
+        "sh.brew.bottle.size": "175773",
+        "sh.brew.bottle.installed_size": "575755",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.21-38-g0c69873\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.23.1\",\"revision\":0,\"pkg_version\":\"0.23.1\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1ae02e7b594d1a3e07eef8157712877537f598ab8e7044e2f8df9ff054545f31",
+      "size": 2589,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.arm64_ventura",
+        "sh.brew.bottle.digest": "2c97f2188ef55d1de16938e270797b3ecc59315cd09f03ca347a533c6e57efd4",
+        "sh.brew.bottle.size": "175783",
+        "sh.brew.bottle.installed_size": "575563",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.21-38-g0c69873\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.23.1\",\"revision\":0,\"pkg_version\":\"0.23.1\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:14d1158e0b44a9868939e2840c4f5b7a9a1d41d7ea39af0fcdf214f18cc90090",
+      "size": 2570,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.sonoma",
+        "sh.brew.bottle.digest": "0ec4ad2607107d27bb8b0acb1f7fb3a81c8bea66ed17b69afbd6bec70a9a5b98",
+        "sh.brew.bottle.size": "173477",
+        "sh.brew.bottle.installed_size": "529561",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.21-38-g0c69873\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.23.1\",\"revision\":0,\"pkg_version\":\"0.23.1\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:326182575b69a533d0b361fa3d8e51dd501380f4e209ac371d887b97dfffdb8e",
+      "size": 2573,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.ventura",
+        "sh.brew.bottle.digest": "be83f28dfef1934dd05a2a2f1523398bf9a6927b0b80c42447f4b18583e6dc25",
+        "sh.brew.bottle.size": "173637",
+        "sh.brew.bottle.installed_size": "554129",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.21-38-g0c69873\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.23.1\",\"revision\":0,\"pkg_version\":\"0.23.1\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1abfda508eafe4ace4241bd3be73276d7ea651015d49bb2047efd31dff468813",
+      "size": 2411,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "620108c517ecfeb00c843bd34f86b75bf84c1bd92be9b554c86424fad3b99f08",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "195366",
+        "sh.brew.bottle.installed_size": "653673",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.21-38-g0c69873\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ae45e59bcb6e2f97e52d4c52b21589e2abfc219f65e34e3f601924a9c38efdd7",
+      "size": 2407,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "c1cc44ec4ce43e405be679fbee9a434a7bdbf86f267ac946cb4a8642cdf89df7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "197875",
+        "sh.brew.bottle.installed_size": "692996",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.51\",\"revision\":0,\"pkg_version\":\"1.51\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:81f0fddccdfa046ecf9415d5e0e916fc56502831bf63ba0e8612b29018207e6b",
+      "size": 2640,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.0.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "0561b0dae24dbd1bfb2ebcc1b6ca6b4f10cab80d30a73558b8b87ab129415dc5",
+        "sh.brew.bottle.size": "175517",
+        "sh.brew.bottle.installed_size": "574590",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-77-g6cb3473\",\"changed_files\":[\"bin/libassuan-config\",\"lib/pkgconfig/libassuan.pc\"],\"source_modified_time\":1739882650,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/libassuan-config"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-02-18T17:09:35Z",
+    "org.opencontainers.image.description": "Assuan IPC Library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libassuan",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later AND GPL-3.0-or-later AND FSFULLR",
+    "org.opencontainers.image.ref.name": "3.0.2",
+    "org.opencontainers.image.revision": "ac1721e5c6421e23d0dc23f8ae1253132511a141",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/ac1721e5c6421e23d0dc23f8ae1253132511a141/Formula/lib/libassuan.rb",
+    "org.opencontainers.image.title": "libassuan",
+    "org.opencontainers.image.url": "https://www.gnupg.org/related_software/libassuan/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.0.2"
+  }
+}

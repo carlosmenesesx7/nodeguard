@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:69cea5c930ea6bc722803f323a587739001a622738364bedf7e94986d8812009",
+      "size": 2292,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20251016-3.1_1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "e61d1403b27ad966a5aafaafafd2db88aace8c717d57aa561df5f7b6d1f1fc69",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "265234",
+        "sh.brew.bottle.installed_size": "1857765",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"lib/pkgconfig/libedit.pc\"],\"source_modified_time\":1760636523,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:34527e28b9bd77190567ea0e0a9d14fc8c050e2d42eb5b6e34aeb263be31b50f",
+      "size": 2100,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20251016-3.1_1.arm64_sequoia",
+        "sh.brew.bottle.digest": "510068e4f21502b89b2c659b098f0f1a3adfa6e30e7cd77ec5389e78038026d9",
+        "sh.brew.bottle.size": "200500",
+        "sh.brew.bottle.installed_size": "1534682",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"lib/pkgconfig/libedit.pc\"],\"source_modified_time\":1760636523,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:97d230e7ffbb928a312e014aa9a6bd44fbc203c02b11645303e4865718b9ef10",
+      "size": 2097,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20251016-3.1_1.arm64_sonoma",
+        "sh.brew.bottle.digest": "ff578f10a3f9bd4c183f97578b0e92893d27a1fdcdd3093ddb7bff44d4e61416",
+        "sh.brew.bottle.size": "201184",
+        "sh.brew.bottle.installed_size": "1536402",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"lib/pkgconfig/libedit.pc\"],\"source_modified_time\":1760636523,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:015475d54e54a6172892138be4dedfc1ceecb3a9a85842a67432a8dec0172d2a",
+      "size": 2092,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20251016-3.1_1.arm64_tahoe",
+        "sh.brew.bottle.digest": "2957d416dfdc8c58a1dd666669d3c7d1330ba15ededc2438a4de3059ca8ec20b",
+        "sh.brew.bottle.size": "200365",
+        "sh.brew.bottle.installed_size": "1533472",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"lib/pkgconfig/libedit.pc\"],\"source_modified_time\":1760636523,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0a0a4bc3e5462bd91097981b2a512d3de908f74dca36c779cea93dea203b1290",
+      "size": 2081,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20251016-3.1_1.sonoma",
+        "sh.brew.bottle.digest": "a875f674adab029105a001dda7a43dbe44544887d73caad16a48cf7c51cacc4e",
+        "sh.brew.bottle.size": "202149",
+        "sh.brew.bottle.installed_size": "1492148",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"lib/pkgconfig/libedit.pc\"],\"source_modified_time\":1760636523,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3c8d9e0c54a9c6a6848493e85657b14525c3b6a5b60ca3682a6deca6a959fc0b",
+      "size": 2297,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20251016-3.1_1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "a0e22aa9e7d09e78d35b2a97e87747271a8651f7eabe4d0e424756939718dfe2",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "260354",
+        "sh.brew.bottle.installed_size": "1783863",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.19-39-g71358ca\",\"changed_files\":[\"lib/pkgconfig/libedit.pc\"],\"source_modified_time\":1760636523,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-11-01T14:40:09Z",
+    "org.opencontainers.image.description": "BSD-style licensed readline alternative",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libedit",
+    "org.opencontainers.image.licenses": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "20251016-3.1_1",
+    "org.opencontainers.image.revision": "403789b043457f14149ca5297461cb7581733cfc",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/403789b043457f14149ca5297461cb7581733cfc/Formula/lib/libedit.rb",
+    "org.opencontainers.image.title": "libedit",
+    "org.opencontainers.image.url": "https://thrysoee.dk/editline/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "20251016-3.1_1"
+  }
+}

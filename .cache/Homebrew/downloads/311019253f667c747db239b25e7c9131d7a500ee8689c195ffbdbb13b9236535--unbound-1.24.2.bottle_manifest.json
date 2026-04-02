@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b15cb26de55a37e5b36077c878cf9816361097cb76149a0b5dd8778f9c427bc2",
+      "size": 3324,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.24.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "b603481910ad8c62e18000618401de4511228fb837c86b7dc59382dce974996a",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "7915747",
+        "sh.brew.bottle.installed_size": "11724354",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.3-28-gd5d28c2\",\"changed_files\":[\"sbin/unbound-control-setup\",\".bottle/etc/unbound/unbound.conf\",\"homebrew.mxcl.unbound.plist\",\"homebrew.unbound.service\",\"lib/pkgconfig/libunbound.pc\",\"share/man/man5/unbound.conf.5\",\"share/man/man8/unbound-anchor.8\",\"share/man/man8/unbound-checkconf.8\",\"share/man/man8/unbound-control-setup.8\",\"share/man/man8/unbound-control.8\"],\"source_modified_time\":1764152172,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-11-04\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-11-04\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":true},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":true},{\"full_name\":\"expat\",\"version\":\"2.7.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.3\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "sbin/unbound-host,sbin/unbound,sbin/unbound-control,sbin/unbound-control-setup,sbin/unbound-anchor,sbin/unbound-checkconf"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0eaeed6df1130fb22a195e8b1f48ba09f001fd4b3ed25bba833841ac9445da9f",
+      "size": 3128,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.24.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "df3c8215fc595feb7c384a959b9e5dfbf38b123749626544c7f096db347ff9f4",
+        "sh.brew.bottle.size": "3028864",
+        "sh.brew.bottle.installed_size": "6550222",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.3-28-gd5d28c2\",\"changed_files\":[\"sbin/unbound-control-setup\",\".bottle/etc/unbound/unbound.conf\",\"homebrew.mxcl.unbound.plist\",\"homebrew.unbound.service\",\"lib/pkgconfig/libunbound.pc\",\"share/man/man5/unbound.conf.5\",\"share/man/man8/unbound-anchor.8\",\"share/man/man8/unbound-checkconf.8\",\"share/man/man8/unbound-control-setup.8\",\"share/man/man8/unbound-control.8\"],\"source_modified_time\":1764152172,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-11-04\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-11-04\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":true},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "sbin/unbound-anchor,sbin/unbound-checkconf,sbin/unbound-control,sbin/unbound,sbin/unbound-control-setup,sbin/unbound-host"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:62b1812960e3eeb7b3e40ab9a5b7b3150bb97684d4d1d06f02773c15234dd2fe",
+      "size": 3125,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.24.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "223d64d8ff9545d24257ef8231d9301b5116b8f33e4aeec15d60474b4a884096",
+        "sh.brew.bottle.size": "3056630",
+        "sh.brew.bottle.installed_size": "6480414",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.3-28-gd5d28c2\",\"changed_files\":[\"sbin/unbound-control-setup\",\".bottle/etc/unbound/unbound.conf\",\"homebrew.mxcl.unbound.plist\",\"homebrew.unbound.service\",\"lib/pkgconfig/libunbound.pc\",\"share/man/man5/unbound.conf.5\",\"share/man/man8/unbound-anchor.8\",\"share/man/man8/unbound-checkconf.8\",\"share/man/man8/unbound-control-setup.8\",\"share/man/man8/unbound-control.8\"],\"source_modified_time\":1764152172,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-11-04\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-11-04\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":true},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "sbin/unbound-anchor,sbin/unbound-checkconf,sbin/unbound-control,sbin/unbound,sbin/unbound-control-setup,sbin/unbound-host"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:902b82bf99d8386aa5146afccfe6b3228e5f1dbcd4fea961e03e5f97def60a25",
+      "size": 3120,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.24.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "6c59b63075d8b30aa313d5b24a81e3654201c757b62a59605a7985372e88c210",
+        "sh.brew.bottle.size": "3027730",
+        "sh.brew.bottle.installed_size": "6531948",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.3-28-gd5d28c2\",\"changed_files\":[\"sbin/unbound-control-setup\",\".bottle/etc/unbound/unbound.conf\",\"homebrew.mxcl.unbound.plist\",\"homebrew.unbound.service\",\"lib/pkgconfig/libunbound.pc\",\"share/man/man5/unbound.conf.5\",\"share/man/man8/unbound-anchor.8\",\"share/man/man8/unbound-checkconf.8\",\"share/man/man8/unbound-control-setup.8\",\"share/man/man8/unbound-control.8\"],\"source_modified_time\":1764152172,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-11-04\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-11-04\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":true},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "sbin/unbound-anchor,sbin/unbound-checkconf,sbin/unbound-control,sbin/unbound,sbin/unbound-control-setup,sbin/unbound-host"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:07908c31f747389c27a892710befe2df3fe03b05441e2b08ff833424b15128eb",
+      "size": 3109,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.24.2.sonoma",
+        "sh.brew.bottle.digest": "211b54d6d74bc64552ddddad1e2a1d5799026177d1b17abc7cff8da77db56f3a",
+        "sh.brew.bottle.size": "3140185",
+        "sh.brew.bottle.installed_size": "6371452",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.3-28-gd5d28c2\",\"changed_files\":[\"sbin/unbound-control-setup\",\".bottle/etc/unbound/unbound.conf\",\"homebrew.mxcl.unbound.plist\",\"homebrew.unbound.service\",\"lib/pkgconfig/libunbound.pc\",\"share/man/man5/unbound.conf.5\",\"share/man/man8/unbound-anchor.8\",\"share/man/man8/unbound-checkconf.8\",\"share/man/man8/unbound-control-setup.8\",\"share/man/man8/unbound-control.8\"],\"source_modified_time\":1764152172,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-11-04\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-11-04\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":true},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "sbin/unbound-anchor,sbin/unbound-checkconf,sbin/unbound-control,sbin/unbound,sbin/unbound-control-setup,sbin/unbound-host"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3f585dec9a68c784463dc62d175e023b9d35d66f0cdce4e5d137ac6458fc0f5c",
+      "size": 3329,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.24.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "4dca3d86d32cd14d33167b2d0cc21df1a306b0050581cb614a1f88249781a237",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "7986825",
+        "sh.brew.bottle.installed_size": "11273460",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.3-28-gd5d28c2\",\"changed_files\":[\"sbin/unbound-control-setup\",\".bottle/etc/unbound/unbound.conf\",\"homebrew.mxcl.unbound.plist\",\"homebrew.unbound.service\",\"lib/pkgconfig/libunbound.pc\",\"share/man/man5/unbound.conf.5\",\"share/man/man8/unbound-anchor.8\",\"share/man/man8/unbound-checkconf.8\",\"share/man/man8/unbound-control-setup.8\",\"share/man/man8/unbound-control.8\"],\"source_modified_time\":1764152172,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-11-04\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-11-04\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.0\",\"declared_directly\":true},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":true},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":true},{\"full_name\":\"expat\",\"version\":\"2.7.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.3\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "sbin/unbound-control,sbin/unbound,sbin/unbound-checkconf,sbin/unbound-anchor,sbin/unbound-host,sbin/unbound-control-setup"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-11-26T11:36:14Z",
+    "org.opencontainers.image.description": "Validating, recursive, caching DNS resolver",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/unbound",
+    "org.opencontainers.image.licenses": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "1.24.2",
+    "org.opencontainers.image.revision": "ee2c2493d9690559d2ab1883e7d676249de7c05d",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/ee2c2493d9690559d2ab1883e7d676249de7c05d/Formula/u/unbound.rb",
+    "org.opencontainers.image.title": "unbound",
+    "org.opencontainers.image.url": "https://www.unbound.net",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.24.2"
+  }
+}

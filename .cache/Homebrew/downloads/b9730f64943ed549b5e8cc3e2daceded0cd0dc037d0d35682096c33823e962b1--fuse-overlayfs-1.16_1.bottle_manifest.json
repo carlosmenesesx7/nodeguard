@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d185c26ef5541bdcf64233e0ee2d5b176fe1c9cf5bfc8ac1a74eb974a4d3a6ed",
+      "size": 2330,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16_1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "7649727cba94e4394ec42a29c8dbb1c9bad932f1125b0ad27f8e3b65e014d5fc",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "62902",
+        "sh.brew.bottle.installed_size": "257065",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-55-gb344d16\",\"changed_files\":[],\"source_modified_time\":1762338532,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libfuse\",\"version\":\"3.18.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.18.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/fuse-overlayfs"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:58db5bc78abad5223410de0a1c5903b747f49a09948a42ca9a85c0bc89cacac9",
+      "size": 2335,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16_1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "b6506681f06a7d624118e4570f465e79cccf1ee7374b3a2d7e088adf46e72252",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "63681",
+        "sh.brew.bottle.installed_size": "183379",
+        "sh.brew.license": "GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-55-gb344d16\",\"changed_files\":[],\"source_modified_time\":1762338532,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libfuse\",\"version\":\"3.18.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.18.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/fuse-overlayfs"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-12-19T04:49:29Z",
+    "org.opencontainers.image.description": "FUSE implementation for overlayfs",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/fuse-overlayfs",
+    "org.opencontainers.image.licenses": "GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "1.16_1",
+    "org.opencontainers.image.revision": "9b082c6487db34d386569219b7e9f0dba0307b3e",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/9b082c6487db34d386569219b7e9f0dba0307b3e/Formula/f/fuse-overlayfs.rb",
+    "org.opencontainers.image.title": "fuse-overlayfs",
+    "org.opencontainers.image.url": "https://github.com/containers/fuse-overlayfs",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.16_1"
+  }
+}

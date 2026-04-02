@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bd7b01b47a808866a44737755600d08aa2af84de45acc980ed2aacf5bf80dbcf",
+      "size": 2829,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "f636ed77fc07ab232ec75012b8b5a69cee10f8f239d48b1d5622baa83d9d9d7e",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "675273",
+        "sh.brew.bottle.installed_size": "3291692",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-114-gd5abe49\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"share/dbus-1/session.conf\",\"share/dbus-1/system.conf\",\"share/doc/dbus/examples/example-session-disable-stats.conf\",\"share/doc/dbus/examples/example-system-enable-stats.conf\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-run-session,bin/dbus-test-tool,bin/dbus-update-activation-environment,bin/dbus-daemon,bin/dbus-launch,bin/dbus-cleanup-sockets,bin/dbus-monitor,bin/dbus-uuidgen,bin/dbus-send"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7c321159e4fa8c2e47be56ab0a4ace4bac89e74c84477ff944f12cefb6c435eb",
+      "size": 2745,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.arm64_sequoia",
+        "sh.brew.bottle.digest": "5a51451acabb5ae56b5682e88a82dfa43cc6a2b653ca068198546bb72324bd0c",
+        "sh.brew.bottle.size": "559862",
+        "sh.brew.bottle.installed_size": "2160118",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-114-gd5abe49\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"org.freedesktop.dbus-session.plist\",\"org.freedesktop.dbus-system.plist\",\"share/dbus-1/session.conf\",\"share/dbus-1/system.conf\",\"share/doc/dbus/examples/example-session-disable-stats.conf\",\"share/doc/dbus/examples/example-system-enable-stats.conf\",\"share/man/man1/dbus-daemon.1\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-monitor,bin/dbus-launch,bin/dbus-test-tool,bin/dbus-send,bin/dbus-daemon,bin/dbus-update-activation-environment,bin/dbus-run-session,bin/dbus-cleanup-sockets,bin/dbus-uuidgen"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9a665d86897adc564268353d26dd36c6496276ed69b851890ca054834d246aaf",
+      "size": 2742,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.arm64_sonoma",
+        "sh.brew.bottle.digest": "1be729814991108cc593bb8472e376947898f8bf94b73271c2238c329514a3ba",
+        "sh.brew.bottle.size": "559461",
+        "sh.brew.bottle.installed_size": "2159686",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-114-gd5abe49\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"org.freedesktop.dbus-session.plist\",\"org.freedesktop.dbus-system.plist\",\"share/dbus-1/session.conf\",\"share/dbus-1/system.conf\",\"share/doc/dbus/examples/example-session-disable-stats.conf\",\"share/doc/dbus/examples/example-system-enable-stats.conf\",\"share/man/man1/dbus-daemon.1\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-monitor,bin/dbus-launch,bin/dbus-test-tool,bin/dbus-send,bin/dbus-daemon,bin/dbus-update-activation-environment,bin/dbus-run-session,bin/dbus-cleanup-sockets,bin/dbus-uuidgen"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:645706abcd1e8e3975bbd124a0adc4544cbbc2d32b9237357d19405a6949ee6b",
+      "size": 2745,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.arm64_ventura",
+        "sh.brew.bottle.digest": "29098b5b3f154677a61c30b402b17fe2912e9efe1cd7917ee6ae754209fe1f29",
+        "sh.brew.bottle.size": "564108",
+        "sh.brew.bottle.installed_size": "2159574",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-114-gd5abe49\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"org.freedesktop.dbus-session.plist\",\"org.freedesktop.dbus-system.plist\",\"share/dbus-1/session.conf\",\"share/dbus-1/system.conf\",\"share/doc/dbus/examples/example-session-disable-stats.conf\",\"share/doc/dbus/examples/example-system-enable-stats.conf\",\"share/man/man1/dbus-daemon.1\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-monitor,bin/dbus-launch,bin/dbus-test-tool,bin/dbus-send,bin/dbus-daemon,bin/dbus-update-activation-environment,bin/dbus-run-session,bin/dbus-cleanup-sockets,bin/dbus-uuidgen"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f03c14b09def794e18187057954ed84a3754ece68a707b36da237f85206e8c56",
+      "size": 2572,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.sonoma",
+        "sh.brew.bottle.digest": "438a1da22c323246b958e0fbc63c5e7405dba77e9274809ebd73ab8c886a19d7",
+        "sh.brew.bottle.size": "555766",
+        "sh.brew.bottle.installed_size": "1701520",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-114-gd5abe49\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"org.freedesktop.dbus-session.plist\",\"org.freedesktop.dbus-system.plist\",\"share/dbus-1/system.conf\",\"share/man/man1/dbus-daemon.1\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-monitor,bin/dbus-launch,bin/dbus-test-tool,bin/dbus-send,bin/dbus-daemon,bin/dbus-update-activation-environment,bin/dbus-run-session,bin/dbus-cleanup-sockets,bin/dbus-uuidgen"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c7d8b7249b194503324e1d43ace1914a0d6529ad795ee9b813b1f839b0bd237c",
+      "size": 2575,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.ventura",
+        "sh.brew.bottle.digest": "2f10ec74399e7ffb843022aa22bf11b088ab6b00d34da46d623fca78900f166b",
+        "sh.brew.bottle.size": "565362",
+        "sh.brew.bottle.installed_size": "1951560",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-114-gd5abe49\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"org.freedesktop.dbus-session.plist\",\"org.freedesktop.dbus-system.plist\",\"share/dbus-1/system.conf\",\"share/man/man1/dbus-daemon.1\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-monitor,bin/dbus-launch,bin/dbus-test-tool,bin/dbus-send,bin/dbus-daemon,bin/dbus-update-activation-environment,bin/dbus-run-session,bin/dbus-cleanup-sockets,bin/dbus-uuidgen"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e8c1d74dfe445110de6fce352c04e7f27beff2395f3699b0f01164f8ce830c3d",
+      "size": 2834,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "42841a5373f596cbccd52b4cf3eae4f3ec6a853309b14e36e869a7030fabd21a",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "669690",
+        "sh.brew.bottle.installed_size": "2272614",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.3-114-gd5abe49\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"share/dbus-1/session.conf\",\"share/dbus-1/system.conf\",\"share/doc/dbus/examples/example-session-disable-stats.conf\",\"share/doc/dbus/examples/example-system-enable-stats.conf\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-monitor,bin/dbus-daemon,bin/dbus-uuidgen,bin/dbus-test-tool,bin/dbus-run-session,bin/dbus-update-activation-environment,bin/dbus-cleanup-sockets,bin/dbus-send,bin/dbus-launch"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0489c3fb7e11f7efdff6725d609c39b932e2af3f848238814491df4d9d60ac04",
+      "size": 2737,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.16.2_1.arm64_tahoe",
+        "sh.brew.bottle.digest": "708eed3cc7031e486c760cc9debe777b7e8de93faf74320b66d3bc42e27499c3",
+        "sh.brew.bottle.size": "559047",
+        "sh.brew.bottle.installed_size": "2154692",
+        "sh.brew.license": "AFL-2.1 OR GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-33-g34be148\",\"changed_files\":[\".bottle/etc/dbus-1/session.conf\",\".bottle/etc/dbus-1/system.conf\",\"lib/pkgconfig/dbus-1.pc\",\"org.freedesktop.dbus-session.plist\",\"org.freedesktop.dbus-system.plist\",\"share/dbus-1/session.conf\",\"share/dbus-1/system.conf\",\"share/doc/dbus/examples/example-session-disable-stats.conf\",\"share/doc/dbus/examples/example-system-enable-stats.conf\",\"share/man/man1/dbus-daemon.1\",\"share/xml/dbus-1/catalog.xml\"],\"source_modified_time\":1740673746,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dbus-monitor,bin/dbus-launch,bin/dbus-test-tool,bin/dbus-send,bin/dbus-daemon,bin/dbus-update-activation-environment,bin/dbus-run-session,bin/dbus-cleanup-sockets,bin/dbus-uuidgen"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-08-15T21:09:39Z",
+    "org.opencontainers.image.description": "Message bus system, providing inter-application communication",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/dbus",
+    "org.opencontainers.image.licenses": "AFL-2.1 OR GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "1.16.2_1",
+    "org.opencontainers.image.revision": "ba73beac62d77107e6f0c68975da3f0fd8e6ae2c",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/ba73beac62d77107e6f0c68975da3f0fd8e6ae2c/Formula/d/dbus.rb",
+    "org.opencontainers.image.title": "dbus",
+    "org.opencontainers.image.url": "https://wiki.freedesktop.org/www/Software/dbus",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.16.2_1"
+  }
+}

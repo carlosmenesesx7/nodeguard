@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4ca50ce8bb4aefced39cbb1bf92de4e17c62cc2ddcf7099553dfb0f7cc51f93c",
+      "size": 2283,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2026_01_20.386b5f5.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "012a2eff826e4128ad9d1e4a6630554aed23d691a5498839b2db6d4cedd9d61a",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "204244",
+        "sh.brew.bottle.installed_size": "840476",
+        "sh.brew.license": "GPL-2.0-or-later AND BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.11-12-gf646293\",\"changed_files\":[],\"source_modified_time\":1768934273,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/qrap,bin/pasta,bin/passt-repair,bin/passt"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e0a5becc7f1f6bafacb69fadea6665918b5fec1d7938ac50e4a1ed87f7acd1d8",
+      "size": 2318,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2026_01_20.386b5f5.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "9c6aadbce62d8b99c92f26d8fdc0d08536073080b6c07a15afc36711e5fcf699",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "384461",
+        "sh.brew.bottle.installed_size": "959888",
+        "sh.brew.license": "GPL-2.0-or-later AND BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.11-12-gf646293\",\"changed_files\":[],\"source_modified_time\":1768934273,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/passt,bin/passt-repair,bin/pasta,bin/pasta.avx2,bin/passt.avx2,bin/qrap"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-01-20T20:47:29Z",
+    "org.opencontainers.image.description": "User-mode networking daemons for virtual machines and namespaces",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/passt",
+    "org.opencontainers.image.licenses": "GPL-2.0-or-later AND BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "2026_01_20.386b5f5",
+    "org.opencontainers.image.revision": "c0d8d6a81e257bb2f8b18962f04ca085c128b827",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/c0d8d6a81e257bb2f8b18962f04ca085c128b827/Formula/p/passt.rb",
+    "org.opencontainers.image.title": "passt",
+    "org.opencontainers.image.url": "https://passt.top/passt/about/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2026_01_20.386b5f5"
+  }
+}

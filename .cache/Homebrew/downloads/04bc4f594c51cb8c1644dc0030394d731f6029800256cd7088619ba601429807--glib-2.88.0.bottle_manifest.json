@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3a3eb9bbd5e723aa3c1d274a4e9d5e93ac0a882dfcec1a40b20c33762474b1a9",
+      "size": 6011,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.88.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "86d88758bcdd42a4c773628d3df8a3e3e728288a303d69fd1b2f8e9b370d0aa1",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "10157074",
+        "sh.brew.bottle.installed_size": "46408738",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-51-g2316400\",\"changed_files\":[\"bin/gdbus-codegen\",\"bin/glib-gettextize\",\"lib/pkgconfig/gio-2.0.pc\",\"lib/pkgconfig/gio-unix-2.0.pc\",\"lib/pkgconfig/girepository-2.0.pc\",\"lib/pkgconfig/glib-2.0.pc\",\"lib/pkgconfig/gmodule-2.0.pc\",\"lib/pkgconfig/gmodule-export-2.0.pc\",\"lib/pkgconfig/gmodule-no-export-2.0.pc\",\"lib/pkgconfig/gobject-2.0.pc\",\"lib/pkgconfig/gthread-2.0.pc\",\"share/gdb/auto-load/home/linuxbrew/.linuxbrew/Cellar/glib/2.88.0/lib/libglib-2.0.so.0.8800.0-gdb.py\",\"share/gdb/auto-load/home/linuxbrew/.linuxbrew/Cellar/glib/2.88.0/lib/libgobject-2.0.so.0.8800.0-gdb.py\"],\"source_modified_time\":1773669230,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":true},{\"full_name\":\"pcre2\",\"version\":\"10.47\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"10.47_1\",\"declared_directly\":true},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.52.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.52.0\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":true},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7_1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.4\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20251016-3.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"20251016-3.1_1\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":1,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.14\",\"version\":\"3.14.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.14.3_1\",\"declared_directly\":true},{\"full_name\":\"dbus\",\"version\":\"1.16.2\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.16.2_1\",\"declared_directly\":true},{\"full_name\":\"libxcrypt\",\"version\":\"4.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.5.2\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.41.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.41.3_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/gresource,bin/glib-mkenums,bin/gtester,bin/glib-genmarshal,bin/gtester-report,bin/gio-querymodules,bin/glib-gettextize,bin/gdbus,bin/glib-compile-resources,bin/gi-inspect-typelib,bin/gio,bin/gsettings,bin/gi-decompile-typelib,bin/gapplication,bin/glib-compile-schemas,bin/gi-compile-repository,bin/gobject-query,bin/gdbus-codegen"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cefc47fcabafad3c445b1c30f917ebdeb28e345d864cff97496237f822e2874e",
+      "size": 3338,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.88.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "3cdbcb3c10760718baf7b5a5920e102a02ffe1735429f98635986188d0853f6f",
+        "sh.brew.bottle.size": "9330862",
+        "sh.brew.bottle.installed_size": "39986178",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-51-g2316400\",\"changed_files\":[\"bin/gdbus-codegen\",\"bin/glib-gettextize\",\"lib/pkgconfig/gio-2.0.pc\",\"lib/pkgconfig/gio-unix-2.0.pc\",\"lib/pkgconfig/girepository-2.0.pc\",\"lib/pkgconfig/glib-2.0.pc\",\"lib/pkgconfig/gmodule-2.0.pc\",\"lib/pkgconfig/gmodule-export-2.0.pc\",\"lib/pkgconfig/gmodule-no-export-2.0.pc\",\"lib/pkgconfig/gobject-2.0.pc\",\"lib/pkgconfig/gthread-2.0.pc\",\"share/gdb/auto-load/opt/homebrew/Cellar/glib/2.88.0/lib/libglib-2.0.so.0.8800.0-gdb.py\",\"share/gdb/auto-load/opt/homebrew/Cellar/glib/2.88.0/lib/libgobject-2.0.so.0.8800.0-gdb.py\"],\"source_modified_time\":1773669230,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"pcre2\",\"version\":\"10.47\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"10.47_1\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gtester,bin/gdbus-codegen,bin/gsettings,bin/glib-compile-schemas,bin/gobject-query,bin/gi-decompile-typelib,bin/gio-querymodules,bin/glib-compile-resources,bin/gresource,bin/gtester-report,bin/glib-gettextize,bin/gdbus,bin/glib-genmarshal,bin/gi-compile-repository,bin/glib-mkenums,bin/gi-inspect-typelib,bin/gio"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:28147b07300a7ddd0f7da9934e4801e7838f5c7ae9cb0bd34593b200405f6095",
+      "size": 3335,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.88.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "1387d9813848f7c7516502c452c97970b439396c7ed6549d65fb4b0f619e2859",
+        "sh.brew.bottle.size": "9099780",
+        "sh.brew.bottle.installed_size": "38840258",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-51-g2316400\",\"changed_files\":[\"bin/gdbus-codegen\",\"bin/glib-gettextize\",\"lib/pkgconfig/gio-2.0.pc\",\"lib/pkgconfig/gio-unix-2.0.pc\",\"lib/pkgconfig/girepository-2.0.pc\",\"lib/pkgconfig/glib-2.0.pc\",\"lib/pkgconfig/gmodule-2.0.pc\",\"lib/pkgconfig/gmodule-export-2.0.pc\",\"lib/pkgconfig/gmodule-no-export-2.0.pc\",\"lib/pkgconfig/gobject-2.0.pc\",\"lib/pkgconfig/gthread-2.0.pc\",\"share/gdb/auto-load/opt/homebrew/Cellar/glib/2.88.0/lib/libglib-2.0.so.0.8800.0-gdb.py\",\"share/gdb/auto-load/opt/homebrew/Cellar/glib/2.88.0/lib/libgobject-2.0.so.0.8800.0-gdb.py\"],\"source_modified_time\":1773669230,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"pcre2\",\"version\":\"10.47\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"10.47_1\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gtester,bin/gdbus-codegen,bin/gsettings,bin/glib-compile-schemas,bin/gobject-query,bin/gi-decompile-typelib,bin/gio-querymodules,bin/glib-compile-resources,bin/gresource,bin/gtester-report,bin/glib-gettextize,bin/gdbus,bin/glib-genmarshal,bin/gi-compile-repository,bin/glib-mkenums,bin/gi-inspect-typelib,bin/gio"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:955bfda6dfeecfb06644eb936007c0d5519a8960af636da32bc1347d6c05a735",
+      "size": 3332,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.88.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "5cc0e9470b11e995f3e2a78db6ca6c5d6f5f84fc57e5216ee11ee99cef385c78",
+        "sh.brew.bottle.size": "9326572",
+        "sh.brew.bottle.installed_size": "39956802",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-51-g2316400\",\"changed_files\":[\"bin/gdbus-codegen\",\"bin/glib-gettextize\",\"lib/pkgconfig/gio-2.0.pc\",\"lib/pkgconfig/gio-unix-2.0.pc\",\"lib/pkgconfig/girepository-2.0.pc\",\"lib/pkgconfig/glib-2.0.pc\",\"lib/pkgconfig/gmodule-2.0.pc\",\"lib/pkgconfig/gmodule-export-2.0.pc\",\"lib/pkgconfig/gmodule-no-export-2.0.pc\",\"lib/pkgconfig/gobject-2.0.pc\",\"lib/pkgconfig/gthread-2.0.pc\",\"share/gdb/auto-load/opt/homebrew/Cellar/glib/2.88.0/lib/libglib-2.0.so.0.8800.0-gdb.py\",\"share/gdb/auto-load/opt/homebrew/Cellar/glib/2.88.0/lib/libgobject-2.0.so.0.8800.0-gdb.py\"],\"source_modified_time\":1773669230,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"pcre2\",\"version\":\"10.47\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"10.47_1\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26.3\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gtester,bin/gdbus-codegen,bin/gsettings,bin/glib-compile-schemas,bin/gobject-query,bin/gi-decompile-typelib,bin/gio-querymodules,bin/glib-compile-resources,bin/gresource,bin/gtester-report,bin/glib-gettextize,bin/gdbus,bin/glib-genmarshal,bin/gi-compile-repository,bin/glib-mkenums,bin/gi-inspect-typelib,bin/gio"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c9b30005d1a58385305f00c982c34ac41705b6a912ba510260c3cff1033f5117",
+      "size": 3313,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.88.0.sonoma",
+        "sh.brew.bottle.digest": "e08deb71c82fdb4d1da3719b05cd86c7f168f07b4f21bac63e9a53b7dc93fab2",
+        "sh.brew.bottle.size": "8856281",
+        "sh.brew.bottle.installed_size": "37107678",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-51-g2316400\",\"changed_files\":[\"bin/gdbus-codegen\",\"bin/glib-gettextize\",\"lib/pkgconfig/gio-2.0.pc\",\"lib/pkgconfig/gio-unix-2.0.pc\",\"lib/pkgconfig/girepository-2.0.pc\",\"lib/pkgconfig/glib-2.0.pc\",\"lib/pkgconfig/gmodule-2.0.pc\",\"lib/pkgconfig/gmodule-export-2.0.pc\",\"lib/pkgconfig/gmodule-no-export-2.0.pc\",\"lib/pkgconfig/gobject-2.0.pc\",\"lib/pkgconfig/gthread-2.0.pc\",\"share/gdb/auto-load/usr/local/Cellar/glib/2.88.0/lib/libglib-2.0.so.0.8800.0-gdb.py\",\"share/gdb/auto-load/usr/local/Cellar/glib/2.88.0/lib/libgobject-2.0.so.0.8800.0-gdb.py\"],\"source_modified_time\":1773669230,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"pcre2\",\"version\":\"10.47\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"10.47_1\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.2\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gtester,bin/gdbus-codegen,bin/gsettings,bin/glib-compile-schemas,bin/gobject-query,bin/gi-decompile-typelib,bin/gio-querymodules,bin/glib-compile-resources,bin/gresource,bin/gtester-report,bin/glib-gettextize,bin/gdbus,bin/glib-genmarshal,bin/gi-compile-repository,bin/glib-mkenums,bin/gi-inspect-typelib,bin/gio"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6b0c31347b14542862a6ff1a0a89d3fce4434f1d5727dd66c9fbc04fdbe581bd",
+      "size": 6017,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.88.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "b4974a368ca1bdfabe7971d0e06b989c7fa2e84334c4e80e2014e22cdb53b4f0",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "9944620",
+        "sh.brew.bottle.installed_size": "43423206",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-51-g2316400\",\"changed_files\":[\"bin/gdbus-codegen\",\"bin/glib-gettextize\",\"lib/pkgconfig/gio-2.0.pc\",\"lib/pkgconfig/gio-unix-2.0.pc\",\"lib/pkgconfig/girepository-2.0.pc\",\"lib/pkgconfig/glib-2.0.pc\",\"lib/pkgconfig/gmodule-2.0.pc\",\"lib/pkgconfig/gmodule-export-2.0.pc\",\"lib/pkgconfig/gmodule-no-export-2.0.pc\",\"lib/pkgconfig/gobject-2.0.pc\",\"lib/pkgconfig/gthread-2.0.pc\",\"share/gdb/auto-load/home/linuxbrew/.linuxbrew/Cellar/glib/2.88.0/lib/libglib-2.0.so.0.8800.0-gdb.py\",\"share/gdb/auto-load/home/linuxbrew/.linuxbrew/Cellar/glib/2.88.0/lib/libgobject-2.0.so.0.8800.0-gdb.py\"],\"source_modified_time\":1773669230,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":true},{\"full_name\":\"pcre2\",\"version\":\"10.47\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"10.47_1\",\"declared_directly\":true},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.52.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.52.0\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.2\",\"declared_directly\":true},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7_1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.4\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20251016-3.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"20251016-3.1_1\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":1,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.14\",\"version\":\"3.14.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.14.3_1\",\"declared_directly\":true},{\"full_name\":\"dbus\",\"version\":\"1.16.2\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"1.16.2_1\",\"declared_directly\":true},{\"full_name\":\"libxcrypt\",\"version\":\"4.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.5.2\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.41.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.41.3_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"icelake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/glib-compile-resources,bin/glib-genmarshal,bin/gobject-query,bin/gresource,bin/glib-compile-schemas,bin/gdbus,bin/gi-decompile-typelib,bin/gtester,bin/gdbus-codegen,bin/glib-gettextize,bin/gtester-report,bin/gi-inspect-typelib,bin/gio,bin/gapplication,bin/gsettings,bin/glib-mkenums,bin/gio-querymodules,bin/gi-compile-repository"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-03-16T17:43:02Z",
+    "org.opencontainers.image.description": "Core application library for C",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/glib",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later",
+    "org.opencontainers.image.ref.name": "2.88.0",
+    "org.opencontainers.image.revision": "a88be13ef90edf19cf3211d83e923360e5ad557c",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/a88be13ef90edf19cf3211d83e923360e5ad557c/Formula/g/glib.rb",
+    "org.opencontainers.image.title": "glib",
+    "org.opencontainers.image.url": "https://docs.gtk.org/glib/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.88.0"
+  }
+}

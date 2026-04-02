@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9d2abaf896f885539ad95956b14607ac874e3f495c5768d5fde0026873831549",
+      "size": 2576,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "4a052cecdfab5101384518ea53bbe20287f00e18e280abb11fb79e63365a31d0",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3040258",
+        "sh.brew.bottle.installed_size": "6833281",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a34117e95dbb47a52cbef9d1f39a815cf774125b907e6418f498aac91c9d550a",
+      "size": 2234,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.arm64_sequoia",
+        "sh.brew.bottle.digest": "76cc45e2468ed978994cebd09c86f5c88308f80a57f7744813b699b786451b3e",
+        "sh.brew.bottle.size": "2401485",
+        "sh.brew.bottle.installed_size": "5248795",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1c29980ecd30352adf227a4299dff5a8ac4d6f731389110677c07da43bf8694e",
+      "size": 2231,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.arm64_sonoma",
+        "sh.brew.bottle.digest": "58cc3efa81a9415e21991191bed05e9af0ed07d836a4d1288eefb36fcbf6234f",
+        "sh.brew.bottle.size": "2402437",
+        "sh.brew.bottle.installed_size": "5250595",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6462ec56d432e8da983c1067b2c3f3dfa3e229eef43c33eb7abe152c15523120",
+      "size": 2228,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.arm64_tahoe",
+        "sh.brew.bottle.digest": "61b8c41bd50692618317c15cf49df150c43dc1171a0eb22e34398320675428f5",
+        "sh.brew.bottle.size": "2400995",
+        "sh.brew.bottle.installed_size": "5232283",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26.3\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f085df21d292ee672507050703597f8e13b888d0f2876c257c9a35c028f0e18f",
+      "size": 2218,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.sequoia",
+        "sh.brew.bottle.digest": "da75d72b08d32851919e68df4c0d772abc84dd7157a742759b04aaddee4d63b2",
+        "sh.brew.bottle.size": "2479417",
+        "sh.brew.bottle.installed_size": "5149357",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"penryn\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6dcb5a7a3480fe9ae680f92c77c39bee7f9ed328f3c1312818b3361abe89bdc1",
+      "size": 2215,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.sonoma",
+        "sh.brew.bottle.digest": "1804a10be21353ffdcab30daf39602df232a5ed73c50fced8d6904892edd8857",
+        "sh.brew.bottle.size": "2473423",
+        "sh.brew.bottle.installed_size": "5136357",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:277090328b195321b105a309d9c6d7a2b9ae2ac4c60e4e2d4d3145cee5ab5e2f",
+      "size": 2212,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 26.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.tahoe",
+        "sh.brew.bottle.digest": "bbb00a1972755629db38439a8f36592ae1282ae76cf7adc665d5923c99fa8d43",
+        "sh.brew.bottle.size": "2479418",
+        "sh.brew.bottle.installed_size": "5149357",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26.3\",\"cpu_family\":\"penryn\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ef5f65caeaefeb87548116e86ff956251385d717e72b4186e286e62d47eff667",
+      "size": 2581,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.51.3.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "1699f0f7d4bd0a724140bb1e46709c93e9882d60ebc630bc83cdb21f3fb47e69",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3047958",
+        "sh.brew.bottle.installed_size": "6738355",
+        "sh.brew.license": "blessing",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-42-g19e513a\",\"changed_files\":[\"lib/pkgconfig/sqlite3.pc\"],\"source_modified_time\":1773402004,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ncurses\",\"version\":\"6.6\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.6\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.3\",\"declared_directly\":true},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/sqlite3"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-03-16T14:27:06Z",
+    "org.opencontainers.image.description": "Command-line interface for SQLite",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/sqlite",
+    "org.opencontainers.image.licenses": "blessing",
+    "org.opencontainers.image.ref.name": "3.51.3",
+    "org.opencontainers.image.revision": "7d0a33683b1a9539be85a90f9ff022067ffbabe3",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/7d0a33683b1a9539be85a90f9ff022067ffbabe3/Formula/s/sqlite.rb",
+    "org.opencontainers.image.title": "sqlite",
+    "org.opencontainers.image.url": "https://sqlite.org/index.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.51.3"
+  }
+}

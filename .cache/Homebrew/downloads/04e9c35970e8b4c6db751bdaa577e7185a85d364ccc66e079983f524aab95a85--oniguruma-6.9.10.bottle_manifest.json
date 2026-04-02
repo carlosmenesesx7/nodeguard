@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6f161e63b17c92a07fcf9c7110f07490f6492b0ee3a62549ba5d87e5a45f0695",
+      "size": 2137,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.arm64_sequoia",
+        "sh.brew.bottle.digest": "7d6ab71fff646664b91e8ff91744696ec775357787dbc1a28e45d52759662e8d",
+        "sh.brew.bottle.size": "460698",
+        "sh.brew.bottle.installed_size": "1529229",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.14-14-ge9b0285\",\"changed_files\":[\"bin/onig-config\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.1\",\"clt\":\"16.1.0.0.1.1729049160\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1e70bd5969463511132890d758f1ed8a6816f18a01597a3e6d3c2353436c930d",
+      "size": 2134,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.arm64_sonoma",
+        "sh.brew.bottle.digest": "86beadf2205c134bfc642be07b663476532c10591743461c2c64bc85be51afc8",
+        "sh.brew.bottle.size": "460694",
+        "sh.brew.bottle.installed_size": "1529229",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.14-14-ge9b0285\",\"changed_files\":[\"bin/onig-config\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"16.1\",\"clt\":\"16.1.0.0.1.1729049160\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b32724e8b6af80730dd45eaf21ced7b2911d65ab5611e273954df187679eeb14",
+      "size": 2137,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.arm64_ventura",
+        "sh.brew.bottle.digest": "b0c3bbabe91edecb282b400150f05ba77360b5ea0a5950df70f0ae53b79d3d68",
+        "sh.brew.bottle.size": "462677",
+        "sh.brew.bottle.installed_size": "1531437",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.14-14-ge9b0285\",\"changed_files\":[\"bin/onig-config\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:221e14701b46cbd98e6547be533e40455c4adad46a1ca6c9dab92ad37d168271",
+      "size": 2131,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.sonoma",
+        "sh.brew.bottle.digest": "174fa500f45c9421915e22c34f51abc2849cbce2c05b64f013e4949bf2edd7e0",
+        "sh.brew.bottle.size": "465880",
+        "sh.brew.bottle.installed_size": "1495202",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.14-14-ge9b0285\",\"changed_files\":[\"bin/onig-config\",\"README\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.1\",\"clt\":\"16.1.0.0.1.1729049160\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:98962acb96bf4ae23c169cd5dae734cf406d9aad40d6f8e91b499ed1f3557d32",
+      "size": 2132,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.ventura",
+        "sh.brew.bottle.digest": "38ea1c89b9e4fe235788557ce0eaa3812d5287c66b217fe798a95f436c241918",
+        "sh.brew.bottle.size": "468303",
+        "sh.brew.bottle.installed_size": "1518600",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.14-14-ge9b0285\",\"changed_files\":[\"bin/onig-config\",\"README\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1807afb4d06af8a0b5adf68b2f0075440799fc34e64a827cee1dd074033261dd",
+      "size": 2202,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "49eb885ab9a80ce30edc0aaa5f531fc0079a17e5cf41c2b6c34be0e53e763993",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "514753",
+        "sh.brew.bottle.installed_size": "1784406",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.14-14-ge9b0285\",\"changed_files\":[\"bin/onig-config\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:48d9187eda3ca45c160c212fb3b735d0f9ac487bc7cf5462f8d754fb165b8d93",
+      "size": 2198,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "b9c6066f02e365ccac0ca20cbcb8ca5d586c0ae781977d363bd411594946d944",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "514106",
+        "sh.brew.bottle.installed_size": "1796877",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-276-gfec5b64\",\"changed_files\":[\"bin/onig-config\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c35ea527ec744995941342a4dfb98927ca8e64a950875ee44765d10222fe618b",
+      "size": 2131,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.9.10.arm64_tahoe",
+        "sh.brew.bottle.digest": "eb6bda3b333f497b5d294388f39fd0902a5c79a52ae16858eff711d2d104cc4d",
+        "sh.brew.bottle.size": "458385",
+        "sh.brew.bottle.installed_size": "1504695",
+        "sh.brew.license": "BSD-2-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-33-g34be148\",\"changed_files\":[\"bin/onig-config\",\"lib/pkgconfig/oniguruma.pc\"],\"source_modified_time\":1735396424,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/onig-config"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-01-01T10:41:03Z",
+    "org.opencontainers.image.description": "Regular expressions library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/oniguruma",
+    "org.opencontainers.image.licenses": "BSD-2-Clause",
+    "org.opencontainers.image.ref.name": "6.9.10",
+    "org.opencontainers.image.revision": "d59c807a17e731022ba8cdaba22f37f6a130e2ac",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/d59c807a17e731022ba8cdaba22f37f6a130e2ac/Formula/o/oniguruma.rb",
+    "org.opencontainers.image.title": "oniguruma",
+    "org.opencontainers.image.url": "https://github.com/kkos/oniguruma/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "6.9.10"
+  }
+}

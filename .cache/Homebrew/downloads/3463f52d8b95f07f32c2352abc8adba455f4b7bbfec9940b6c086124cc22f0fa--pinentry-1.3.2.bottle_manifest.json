@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:64f1e5c62f4dfa70db998980aeb378df524aed444d5362f7fd484898bd1620c2",
+      "size": 5607,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "f5b34aeb57f37731401747e632485c6e5d8d6b60f1e025323558d7b0b3dac96e",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "151912",
+        "sh.brew.bottle.installed_size": "649420",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":true},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"pcre2\",\"version\":\"10.45\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"10.45\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.5.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.1\",\"declared_directly\":false},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-07-15\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-07-15\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":0,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.5\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"3.13.5\",\"declared_directly\":false},{\"full_name\":\"dbus\",\"version\":\"1.16.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.16.2\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.41.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.41.1_1\",\"declared_directly\":false},{\"full_name\":\"glib\",\"version\":\"2.84.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.84.3\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.11.1\",\"declared_directly\":false},{\"full_name\":\"libsecret\",\"version\":\"0.21.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.21.7\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry,bin/pinentry-tty,bin/pinentry-curses"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:13cbe34f5edb31ccf6c62ef81cc45e9346dbda3a011e985ee6a03e940f6fb40d",
+      "size": 2703,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "f6dfd4bfdda001ddfddbed01c6ad7e06408ff022788a7718d35e443ebcb31274",
+        "sh.brew.bottle.size": "132649",
+        "sh.brew.bottle.installed_size": "468525",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry,bin/pinentry-tty,bin/pinentry-curses"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a81d3e164668da42e9affe3637353010f6366a8c7f5c2daa32040e64c7467b9b",
+      "size": 2700,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "45317e1d4023306c38e0118f48f75fbdc09df2b22ca0428f747ad4844413bd2c",
+        "sh.brew.bottle.size": "132843",
+        "sh.brew.bottle.installed_size": "468173",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry,bin/pinentry-tty,bin/pinentry-curses"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:08245b80a6b04da584176494d933f169ebf9e14e7511a08a2fc2d75dbb38fcb2",
+      "size": 2703,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.arm64_ventura",
+        "sh.brew.bottle.digest": "114df538a9d7172db7eb15b1c1380617fe8e7f3da735d1941dd3fef520aeaeec",
+        "sh.brew.bottle.size": "133069",
+        "sh.brew.bottle.installed_size": "468173",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry,bin/pinentry-tty,bin/pinentry-curses"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4810f9d1e9cec96f1cd95ae77f25c21900c7ba0789e7e35e1285998600d61e0b",
+      "size": 2684,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.sonoma",
+        "sh.brew.bottle.digest": "d0efed8b2727ae08821905faaae114946dc6ca476acc9e64f05b9d54923ec965",
+        "sh.brew.bottle.size": "132680",
+        "sh.brew.bottle.installed_size": "360357",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry,bin/pinentry-tty,bin/pinentry-curses"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c9cab7440cb5a5c5263ca9274a0004db576dcfb5846ceb6b95e073c33791ca27",
+      "size": 2687,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.ventura",
+        "sh.brew.bottle.digest": "d5febb0ffec00281abc40d54ebf90929861452ea2a9dee1394a54f9ccb96dc3c",
+        "sh.brew.bottle.size": "133443",
+        "sh.brew.bottle.installed_size": "430021",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry,bin/pinentry-tty,bin/pinentry-curses"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:07ee2ba4e3b8afa252e9ddc0df7fd7a32b3fff95ee575aee089eedf0f8664b96",
+      "size": 5612,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "92da639e8c37468025b9464abc36f6b15d13a2a096c25c0c860450745c7d696d",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "151561",
+        "sh.brew.bottle.installed_size": "452846",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":true},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"pcre2\",\"version\":\"10.45\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"10.45\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.5.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.1\",\"declared_directly\":false},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-07-15\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-07-15\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.3.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.3\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":0,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.5\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"3.13.5\",\"declared_directly\":false},{\"full_name\":\"dbus\",\"version\":\"1.16.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.16.2\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.41.1\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.41.1_1\",\"declared_directly\":false},{\"full_name\":\"glib\",\"version\":\"2.84.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.84.3\",\"declared_directly\":true},{\"full_name\":\"libgcrypt\",\"version\":\"1.11.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.11.1\",\"declared_directly\":false},{\"full_name\":\"libsecret\",\"version\":\"0.21.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.21.7\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry-tty,bin/pinentry,bin/pinentry-curses"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6ce7b73617ca1103fbf528528b0c12b178299b6b85973d2f3fdde1ed89f8a50e",
+      "size": 2707,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.3.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "8db428e52232580a5acf1da5a370c39c425e5320a28e967ae091f1c82596b50a",
+        "sh.brew.bottle.size": "132382",
+        "sh.brew.bottle.installed_size": "467319",
+        "sh.brew.license": "GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-79-g5f1241b\",\"changed_files\":[],\"source_modified_time\":1753686469,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.3\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.3\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.26\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.55\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.55\",\"declared_directly\":true},{\"full_name\":\"libassuan\",\"version\":\"3.0.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.0.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/pinentry,bin/pinentry-tty,bin/pinentry-curses"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-07-28T11:02:38Z",
+    "org.opencontainers.image.description": "Passphrase entry dialog utilizing the Assuan protocol",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/pinentry",
+    "org.opencontainers.image.licenses": "GPL-2.0-only",
+    "org.opencontainers.image.ref.name": "1.3.2",
+    "org.opencontainers.image.revision": "33097de2b881f945735389a4046ca3e14a89c2f8",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/33097de2b881f945735389a4046ca3e14a89c2f8/Formula/p/pinentry.rb",
+    "org.opencontainers.image.title": "pinentry",
+    "org.opencontainers.image.url": "https://www.gnupg.org/related_software/pinentry/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.3.2"
+  }
+}

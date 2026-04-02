@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:445cd4f504b62de1057e0868024cd9d12a22819d280e9d7ed850db5dc4f39936",
+      "size": 2165,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "eb6df814b35273cecd7caf4291ee1a972ab1ac20d11a126b0e2db556dfc50d84",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "200364",
+        "sh.brew.bottle.installed_size": "575108",
+        "sh.brew.license": "Zlib",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-44-g354f357\",\"changed_files\":[\"lib/pkgconfig/zlib.pc\"],\"source_modified_time\":1770153003,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:749d12ab1f9cc8435d0deec82a6413e2d6b1e57bcaae2b1755ed3388b3aac1a4",
+      "size": 2107,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_1.arm64_sequoia",
+        "sh.brew.bottle.digest": "cf654aacfa54b53a5d1d3fbb73e3053fe43349253de8515f05b7070b430ba4ae",
+        "sh.brew.bottle.size": "170397",
+        "sh.brew.bottle.installed_size": "444986",
+        "sh.brew.license": "Zlib",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-44-g354f357\",\"changed_files\":[\"lib/pkgconfig/zlib.pc\"],\"source_modified_time\":1770153003,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f3f238cfb327f1241d16e32f6ba0e15ebd124a7b9e8c70c6fa770e0b657fc4e5",
+      "size": 2104,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_1.arm64_sonoma",
+        "sh.brew.bottle.digest": "b61f5de1a8bff94d6161b1289e6d4b093842cdce1b6cfdeb768f48ddd4c4dc78",
+        "sh.brew.bottle.size": "170864",
+        "sh.brew.bottle.installed_size": "444954",
+        "sh.brew.license": "Zlib",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-44-g354f357\",\"changed_files\":[\"lib/pkgconfig/zlib.pc\"],\"source_modified_time\":1770153003,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8e33ff3380e81e246b42df74114b6fe2aba1d8aa6874c81929cc140f1565919c",
+      "size": 2099,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_1.arm64_tahoe",
+        "sh.brew.bottle.digest": "b54f4ab67f4956e7d0ede376704746985e5e8cfaa97ec299b311c74eb49708a6",
+        "sh.brew.bottle.size": "170274",
+        "sh.brew.bottle.installed_size": "444152",
+        "sh.brew.license": "Zlib",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-44-g354f357\",\"changed_files\":[\"lib/pkgconfig/zlib.pc\"],\"source_modified_time\":1770153003,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:670cc9fc40ce6102cc012e6686474ad4d21ba0d4cde73f638b0bdec90a7e13fa",
+      "size": 2088,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_1.sonoma",
+        "sh.brew.bottle.digest": "e449db4f2bd6dfa5bf1931f053ed2be4406a04408754e300323a8de68156a2a9",
+        "sh.brew.bottle.size": "202758",
+        "sh.brew.bottle.installed_size": "496799",
+        "sh.brew.license": "Zlib",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-44-g354f357\",\"changed_files\":[\"lib/pkgconfig/zlib.pc\"],\"source_modified_time\":1770153003,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ee29500e60c0c7a42665ce008e54376bb6290874bfe3169d597022d94dd29c05",
+      "size": 2170,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.3.3_1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "eb72c27ca6918fb29af89b1287471e381e15156212ccd0e99661ee393bde872d",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "234423",
+        "sh.brew.bottle.installed_size": "629400",
+        "sh.brew.license": "Zlib",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-44-g354f357\",\"changed_files\":[\"lib/pkgconfig/zlib.pc\"],\"source_modified_time\":1770153003,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-13T21:57:43Z",
+    "org.opencontainers.image.description": "Zlib replacement with optimizations for next generation systems",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/zlib-ng-compat",
+    "org.opencontainers.image.licenses": "Zlib",
+    "org.opencontainers.image.ref.name": "2.3.3_1",
+    "org.opencontainers.image.revision": "7e09046e30f9dd89276e3a6ef3611958f878e9f3",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/7e09046e30f9dd89276e3a6ef3611958f878e9f3/Formula/z/zlib-ng-compat.rb",
+    "org.opencontainers.image.title": "zlib-ng-compat",
+    "org.opencontainers.image.url": "https://github.com/zlib-ng/zlib-ng",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.3.3_1"
+  }
+}

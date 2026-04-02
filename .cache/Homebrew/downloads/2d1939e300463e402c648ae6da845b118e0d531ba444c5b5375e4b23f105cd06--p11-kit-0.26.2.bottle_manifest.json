@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ca9166d2de5e36508638ce61ff06dc2abc4f52b7d4451e3515c32ca3d65fc78f",
+      "size": 2681,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.26.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "1924836b8e56a59363d2e294f1c2ee40b62e1b4ffd6600e7c0de78d11b90fbbb",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1491467",
+        "sh.brew.bottle.installed_size": "7562009",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[\".bottle/etc/pkcs11.conf.example\",\"lib/pkgconfig/p11-kit-1.pc\"],\"source_modified_time\":1770393686,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/trust,bin/p11-kit"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:dcafa2cd14ed0c2a8413c3658a22bc346cf7e94fe148bb48be5b1a74b4a49fae",
+      "size": 2483,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.26.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "62a02e67a42d05aceb5653bd5d4be971172484fa9def96f066963a6fb4ca3f11",
+        "sh.brew.bottle.size": "992612",
+        "sh.brew.bottle.installed_size": "4885377",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[\".bottle/etc/pkcs11.conf.example\",\"lib/pkgconfig/p11-kit-1.pc\"],\"source_modified_time\":1770393686,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/trust,bin/p11-kit"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0e39c4ba2f4c76bf17d29d0894ecc34c634846748316a6afa4c6ae410662b374",
+      "size": 2480,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.26.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "bee65fbab57c03c46620379593e7bc4865cce0bf2db794cf22bdfcc1eb564979",
+        "sh.brew.bottle.size": "991057",
+        "sh.brew.bottle.installed_size": "4983841",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[\".bottle/etc/pkcs11.conf.example\",\"lib/pkgconfig/p11-kit-1.pc\"],\"source_modified_time\":1770393686,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/trust,bin/p11-kit"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:488718ac55bf3182fcfde3a16313a405beb8db9d37ef746f6221bf3bbbe88f9a",
+      "size": 2475,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.26.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "c814d01363bc8e35892432f19074e507d16b1bce3f88635478969050250079ba",
+        "sh.brew.bottle.size": "992206",
+        "sh.brew.bottle.installed_size": "4871039",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[\".bottle/etc/pkcs11.conf.example\",\"lib/pkgconfig/p11-kit-1.pc\"],\"source_modified_time\":1770393686,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/trust,bin/p11-kit"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e99a227aa81ef081e01e31f8649ac1d12bdc6f60ce83c47dcecd71e6a6a8021f",
+      "size": 2430,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.26.2.sonoma",
+        "sh.brew.bottle.digest": "e1e808da48ab0eb63ff145b55a3407d0265501e09b4e627f8ba02ecc654c3663",
+        "sh.brew.bottle.size": "1050500",
+        "sh.brew.bottle.installed_size": "4298972",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[\"lib/pkgconfig/p11-kit-1.pc\"],\"source_modified_time\":1770393686,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/trust,bin/p11-kit"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:095e79597c4761cb53fc3d6c327480c9b55afff098aa00cf90345aa5433c84df",
+      "size": 2686,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.26.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "52d46084406325d13f58712ee3afbec2f78eb7cab0b57acda36597b607800d85",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1555351",
+        "sh.brew.bottle.installed_size": "6776851",
+        "sh.brew.license": "BSD-3-Clause",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[\".bottle/etc/pkcs11.conf.example\",\"lib/pkgconfig/p11-kit-1.pc\"],\"source_modified_time\":1770393686,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen4\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/trust,bin/p11-kit"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-06T18:54:19Z",
+    "org.opencontainers.image.description": "Library to load and enumerate PKCS#11 modules",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/p11-kit",
+    "org.opencontainers.image.licenses": "BSD-3-Clause",
+    "org.opencontainers.image.ref.name": "0.26.2",
+    "org.opencontainers.image.revision": "50fd593bf9f5f9c1465dce7b0d22fb11930364dd",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/50fd593bf9f5f9c1465dce7b0d22fb11930364dd/Formula/p/p11-kit.rb",
+    "org.opencontainers.image.title": "p11-kit",
+    "org.opencontainers.image.url": "https://p11-glue.github.io/p11-glue/p11-kit.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "0.26.2"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:75c95a6a13cd2f17f8a92a0c3ee1d992a588278359728ae7a658d3724ebb9627",
+      "size": 2421,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "7707181e84ba592d8e3930722ecb55e7978e32c70ea7b640d5c8e7578572c4ee",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "846820",
+        "sh.brew.bottle.installed_size": "3211988",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-29-g8e96d6f\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/unxz,bin/lzdiff,bin/lzmainfo,bin/xzdiff,bin/xzcat,bin/xzcmp,bin/lzfgrep,bin/lzmadec,bin/xz,bin/xzgrep,bin/unlzma,bin/lzmore,bin/lzless,bin/xzegrep,bin/xzdec,bin/lzma,bin/lzcmp,bin/lzegrep,bin/xzfgrep,bin/xzless,bin/lzgrep,bin/xzmore,bin/lzcat"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f48df74383ff63203e102fba7c8c05a9b3b4fa7c73093d29e21d4d5f123fb768",
+      "size": 2363,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "d0ec2004d93c33f1077eefdd2831075b010b1f8e4f58a7e72b02b7f39cf037a0",
+        "sh.brew.bottle.size": "764908",
+        "sh.brew.bottle.installed_size": "2664682",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-29-g8e96d6f\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9a6ae53e22d9921f9febb4042e17af52f727b1a009366a23da4c928906e0d713",
+      "size": 2360,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "e50564d9d3449bc62d111977cc434c33f419f26c1a8befe1672c18b225f714ef",
+        "sh.brew.bottle.size": "766014",
+        "sh.brew.bottle.installed_size": "2666866",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-29-g8e96d6f\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:143b561b298ab8a224335cd586b85d10efe909613c13ec6fcd1575008d7137fd",
+      "size": 2355,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "770e7bbcac1c6422435e63cdc48fc68f40942060913ee2d8d24d4a0eadbeb593",
+        "sh.brew.bottle.size": "764266",
+        "sh.brew.bottle.installed_size": "2662280",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-31-gab36f6e\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:74fda1aff9a04874160bd0cae1e2dc459a9f984fdda23a650d73b2e86243267d",
+      "size": 2347,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.sequoia",
+        "sh.brew.bottle.digest": "7ed1dae7c8ba2d61bf2bc0db326c8235193c603e4421aac0fa7b64060ec10fa1",
+        "sh.brew.bottle.size": "746094",
+        "sh.brew.bottle.installed_size": "2447182",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-29-g8e96d6f\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"penryn\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a85624298c732dc2f698f798b4d839c4e2025b48430b9b7a42ed3543cbc4c119",
+      "size": 2344,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.sonoma",
+        "sh.brew.bottle.digest": "2f643a3897536c1baa1376f594f1aec987d1336c1980567d58bc5692ef895a04",
+        "sh.brew.bottle.size": "744337",
+        "sh.brew.bottle.installed_size": "2444726",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-29-g8e96d6f\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:33a248c9e4a069f4b39288a9e4727e5b2646a7dab3b191811c12834a7d2479b7",
+      "size": 2339,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.tahoe",
+        "sh.brew.bottle.digest": "79be5da804bdae92c823d7056287c417af1089e52efa6ae443a7cd7c92165b09",
+        "sh.brew.bottle.size": "746088",
+        "sh.brew.bottle.installed_size": "2447180",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-29-g8e96d6f\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"penryn\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/lzmainfo,bin/xzdec,bin/unxz,bin/xzegrep,bin/unlzma,bin/xzfgrep,bin/xz,bin/lzless,bin/xzless,bin/lzcmp,bin/xzcat,bin/xzcmp,bin/lzcat,bin/lzdiff,bin/lzmadec,bin/lzgrep,bin/lzmore,bin/lzfgrep,bin/xzmore,bin/xzgrep,bin/lzma,bin/lzegrep,bin/xzdiff"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:35e5c746b37db2b860ed2c279afd4192f5bd8ab6fdc1e0bef65df8b2d705defe",
+      "size": 2426,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.8.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "86a4e124a1ec2f7435b6bd44f3e980fc6e90fec9e3a93b229f9432d73e664b65",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "837792",
+        "sh.brew.bottle.installed_size": "2766270",
+        "sh.brew.license": "0BSD AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.6-29-g8e96d6f\",\"changed_files\":[\"lib/pkgconfig/liblzma.pc\"],\"source_modified_time\":1765971771,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/xz,bin/lzmore,bin/lzcat,bin/lzegrep,bin/lzfgrep,bin/lzdiff,bin/lzcmp,bin/xzless,bin/lzgrep,bin/lzmainfo,bin/xzcat,bin/xzmore,bin/unxz,bin/lzmadec,bin/xzegrep,bin/xzcmp,bin/lzless,bin/xzdec,bin/xzgrep,bin/lzma,bin/unlzma,bin/xzdiff,bin/xzfgrep"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-12-17T17:54:34Z",
+    "org.opencontainers.image.description": "General-purpose data compression with high compression ratio",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/xz",
+    "org.opencontainers.image.licenses": "0BSD AND GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "5.8.2",
+    "org.opencontainers.image.revision": "b725fcc7ade1c3e7e53157c1191eacb700f8c655",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/b725fcc7ade1c3e7e53157c1191eacb700f8c655/Formula/x/xz.rb",
+    "org.opencontainers.image.title": "xz",
+    "org.opencontainers.image.url": "https://tukaani.org/xz/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "5.8.2"
+  }
+}

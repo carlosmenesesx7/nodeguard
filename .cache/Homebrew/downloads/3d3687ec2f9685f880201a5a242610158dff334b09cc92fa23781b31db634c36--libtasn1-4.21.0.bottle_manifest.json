@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1a3fb56301855d0e955b29253e0e985a1909a170b1dac4764df42b2a933e78f2",
+      "size": 2221,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.21.0.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "c8b7973e5f6822f25876da6b60138eec386a3d3b9f0a694dff7b5a7073fcf82d",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "184473",
+        "sh.brew.bottle.installed_size": "1020192",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.9-31-g3b90473\",\"changed_files\":[\"lib/pkgconfig/libtasn1.pc\"],\"source_modified_time\":1767874762,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/asn1Parser,bin/asn1Coding,bin/asn1Decoding"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:558a561c5c65e9e1eb99c3eb0e61b55e95ac23684b9f49ec1921a80f26f1402a",
+      "size": 2162,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.21.0.arm64_sequoia",
+        "sh.brew.bottle.digest": "973e0fd7d529808f53fa9ae281020bcbcc750a1dff60e5e5bc37c0da274cca5e",
+        "sh.brew.bottle.size": "167171",
+        "sh.brew.bottle.installed_size": "724660",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.9-31-g3b90473\",\"changed_files\":[\"lib/pkgconfig/libtasn1.pc\"],\"source_modified_time\":1767874762,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/asn1Decoding,bin/asn1Coding,bin/asn1Parser"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fefdbbd7b1e0024542910862daa42085a52b83d005a2d20a1d4f827211f83693",
+      "size": 2159,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.21.0.arm64_sonoma",
+        "sh.brew.bottle.digest": "2dceab4bf93738bd4f3efd9063a5cf60ccd96e5b0e5a3ac9fca508e42b5f3336",
+        "sh.brew.bottle.size": "166854",
+        "sh.brew.bottle.installed_size": "724884",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.9-31-g3b90473\",\"changed_files\":[\"lib/pkgconfig/libtasn1.pc\"],\"source_modified_time\":1767874762,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/asn1Decoding,bin/asn1Coding,bin/asn1Parser"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9ab6356fb03d6cf49ee54143b847cd329c0e9d112b48968364eb2537621eb02b",
+      "size": 2154,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.21.0.arm64_tahoe",
+        "sh.brew.bottle.digest": "ae01713eec0bd922b903ed2bf514dc085ec3108636c4ead84614b23a2c33f267",
+        "sh.brew.bottle.size": "165287",
+        "sh.brew.bottle.installed_size": "722370",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.9-31-g3b90473\",\"changed_files\":[\"lib/pkgconfig/libtasn1.pc\"],\"source_modified_time\":1767874762,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/asn1Decoding,bin/asn1Coding,bin/asn1Parser"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:814e02050746b50557aeb85a77b64fc6657caf0e9902af8473919e86520c27f7",
+      "size": 2143,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.21.0.sonoma",
+        "sh.brew.bottle.digest": "71c5d144fdce79e4cfe7bbd5863da5171a13d892a26475c5ea183e7e3ef21d8f",
+        "sh.brew.bottle.size": "154405",
+        "sh.brew.bottle.installed_size": "548185",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.9-31-g3b90473\",\"changed_files\":[\"lib/pkgconfig/libtasn1.pc\"],\"source_modified_time\":1767874762,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/asn1Decoding,bin/asn1Coding,bin/asn1Parser"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2363ee2fe93cbed3e21737c5319ebf9fae6c4c8cccb090b026a1bc91d1a7abbf",
+      "size": 2225,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.21.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "c0394c5c9c0b278c37eb9f817a282054d64654f7b27eb86100bb5b307a0d72b5",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "178684",
+        "sh.brew.bottle.installed_size": "695890",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.9-31-g3b90473\",\"changed_files\":[\"lib/pkgconfig/libtasn1.pc\"],\"source_modified_time\":1767874762,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/asn1Decoding,bin/asn1Coding,bin/asn1Parser"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-01-08T17:46:19Z",
+    "org.opencontainers.image.description": "ASN.1 structure parser library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libtasn1",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later",
+    "org.opencontainers.image.ref.name": "4.21.0",
+    "org.opencontainers.image.revision": "ea69d896ee97cd49c4e9fcd9f664438d5cac81fa",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/ea69d896ee97cd49c4e9fcd9f664438d5cac81fa/Formula/lib/libtasn1.rb",
+    "org.opencontainers.image.title": "libtasn1",
+    "org.opencontainers.image.url": "https://www.gnu.org/software/libtasn1/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "4.21.0"
+  }
+}

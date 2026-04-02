@@ -1,0 +1,55 @@
+#!/bin/bash
+set -e
+
+APP_NAME="nodeguard"
+CONFIG_FILE="$HOME/.nodeguard.yaml"
+KUBECONFIG="$HOME/.kube"
+
+echo "🚀 Instalando $APP_NAME con Podman..."
+
+# 1️⃣ Crear archivo config si no existe
+if [ ! -f "$CONFIG_FILE" ]; then
+    echo "📝 Creando archivo de configuración $CONFIG_FILE"
+    cat <<EOF > "$CONFIG_FILE"
+api_key: "TU_API_KEY_AQUI"
+api_url: "https://api.tusaas.com/metrics"
+check_interval: 300
+threshold: 95
+
+clusters:
+  - name: "BCBot"
+    context: "BCBot-PRO"
+EOF
+    echo "✅ Archivo config creado"
+else
+    echo "⚡ Configuración existente encontrada en $CONFIG_FILE"
+fi
+
+# 2️⃣ Verificar kubeconfig
+if [ ! -d "$KUBECONFIG" ]; then
+    echo "❌ No se encontró kubeconfig en $KUBECONFIG. Asegúrate de tener ~/.kube/config"
+    exit 1
+fi
+
+# 3️⃣ Construir la imagen (si no existe)
+if ! podman image exists nodeguard:latest; then
+    echo "📦 Construyendo imagen nodeguard:latest"
+    podman build -t nodeguard:latest .
+fi
+
+# 4️⃣ Ejecutar contenedor persistente
+if podman container exists nodeguard; then
+    echo "♻️ Contenedor nodeguard existente, reiniciando..."
+    podman rm -f nodeguard
+fi
+
+echo "🚀 Iniciando contenedor NodeGuard..."
+podman run -d --name nodeguard \
+    -v $KUBECONFIG:/root/.kube:Z \
+    -v $CONFIG_FILE:/root/.nodeguard.yaml:Z \
+    -e API_KEY="TU_API_KEY_AQUI" \
+    -e API_URL="https://api.tusaas.com/metrics" \
+    nodeguard:latest
+
+echo "✅ NodeGuard corriendo en Podman. Logs:"
+podman logs -f nodeguard

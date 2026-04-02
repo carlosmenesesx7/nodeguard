@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e3d5b805e343607a8d007583b98c29febba94147db665a77357198aeb796d153",
+      "size": 2911,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.6.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "02abc7eacf7d1f27c992888494a19a397bd4911fc6a92c34db232714488aec12",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "2820752",
+        "sh.brew.bottle.installed_size": "12801219",
+        "sh.brew.license": "X11-distribute-modifications-variant",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.8-15-g7543440\",\"changed_files\":[\"bin/ncursesw6-config\",\"lib/pkgconfig/formw.pc\",\"lib/pkgconfig/menuw.pc\",\"lib/pkgconfig/ncurses++w.pc\",\"lib/pkgconfig/ncursesw.pc\",\"lib/pkgconfig/panelw.pc\",\"share/man/man1/infocmp.1\",\"share/man/man1/infotocap.1\",\"share/man/man1/ncursesw6-config.1\",\"share/man/man1/reset.1\",\"share/man/man1/tabs.1\",\"share/man/man1/tic.1\",\"share/man/man1/toe.1\",\"share/man/man1/tput.1\",\"share/man/man1/tset.1\",\"share/man/man3/ncurses.3ncurses\",\"share/man/man5/term.5\",\"share/man/man5/terminfo.5\",\"share/man/man7/term.7\",\"share/ncurses/test/Makefile\"],\"source_modified_time\":1767137046,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/captoinfo,bin/infocmp,bin/clear,bin/ncursesw6-config,bin/tabs,bin/tic,bin/infotocap,bin/tput,bin/tset,bin/toe,bin/reset,bin/ncurses6-config"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:56773498023e90859bca0f52d38b566fc6595140c4fe30a62f21c4f8e43dc07b",
+      "size": 2826,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.6.arm64_sequoia",
+        "sh.brew.bottle.digest": "3fe0a6d4482023f880e9542af63e9229c6fcd7456b46e88b5d2d4703eb2ec943",
+        "sh.brew.bottle.size": "2535199",
+        "sh.brew.bottle.installed_size": "10551673",
+        "sh.brew.license": "X11-distribute-modifications-variant",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.8-15-g7543440\",\"changed_files\":[\"bin/ncursesw6-config\",\"lib/pkgconfig/formw.pc\",\"lib/pkgconfig/menuw.pc\",\"lib/pkgconfig/ncurses++w.pc\",\"lib/pkgconfig/ncursesw.pc\",\"lib/pkgconfig/panelw.pc\",\"share/man/man1/infocmp.1m\",\"share/man/man1/infotocap.1m\",\"share/man/man1/ncursesw6-config.1\",\"share/man/man1/reset.1\",\"share/man/man1/tabs.1\",\"share/man/man1/tic.1m\",\"share/man/man1/toe.1m\",\"share/man/man1/tput.1\",\"share/man/man1/tset.1\",\"share/man/man3/ncurses.3x\",\"share/man/man5/term.5\",\"share/man/man5/terminfo.5\",\"share/man/man7/term.7\",\"share/ncurses/test/Makefile\"],\"source_modified_time\":1767137046,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/tabs,bin/toe,bin/infotocap,bin/captoinfo,bin/tset,bin/reset,bin/clear,bin/ncursesw6-config,bin/tic,bin/infocmp,bin/ncurses6-config,bin/tput"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:da5f4aadaad372a275d97e6857c2d8a2d04571f2c6fb96d361b1d7b35a585a89",
+      "size": 2823,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.6.arm64_sonoma",
+        "sh.brew.bottle.digest": "d4df00300346955c4703c7deecd3affca58a0a27477087d6ff387beb30a3ac9f",
+        "sh.brew.bottle.size": "2535558",
+        "sh.brew.bottle.installed_size": "10556160",
+        "sh.brew.license": "X11-distribute-modifications-variant",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.8-15-g7543440\",\"changed_files\":[\"bin/ncursesw6-config\",\"lib/pkgconfig/formw.pc\",\"lib/pkgconfig/menuw.pc\",\"lib/pkgconfig/ncurses++w.pc\",\"lib/pkgconfig/ncursesw.pc\",\"lib/pkgconfig/panelw.pc\",\"share/man/man1/infocmp.1m\",\"share/man/man1/infotocap.1m\",\"share/man/man1/ncursesw6-config.1\",\"share/man/man1/reset.1\",\"share/man/man1/tabs.1\",\"share/man/man1/tic.1m\",\"share/man/man1/toe.1m\",\"share/man/man1/tput.1\",\"share/man/man1/tset.1\",\"share/man/man3/ncurses.3x\",\"share/man/man5/term.5\",\"share/man/man5/terminfo.5\",\"share/man/man7/term.7\",\"share/ncurses/test/Makefile\"],\"source_modified_time\":1767137046,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/tabs,bin/toe,bin/infotocap,bin/captoinfo,bin/tset,bin/reset,bin/clear,bin/ncursesw6-config,bin/tic,bin/infocmp,bin/ncurses6-config,bin/tput"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3d79ea2ee28d27f9726ee5bf6adddcc217f8b619df1da9ee3c86eaa6b22275ce",
+      "size": 2818,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.6.arm64_tahoe",
+        "sh.brew.bottle.digest": "b43443ba3c3c8728e79413c7c3fed4a0eb293bd77c8492c1ec4c5d05233a97f1",
+        "sh.brew.bottle.size": "2533863",
+        "sh.brew.bottle.installed_size": "10545511",
+        "sh.brew.license": "X11-distribute-modifications-variant",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.8-15-g7543440\",\"changed_files\":[\"bin/ncursesw6-config\",\"lib/pkgconfig/formw.pc\",\"lib/pkgconfig/menuw.pc\",\"lib/pkgconfig/ncurses++w.pc\",\"lib/pkgconfig/ncursesw.pc\",\"lib/pkgconfig/panelw.pc\",\"share/man/man1/infocmp.1m\",\"share/man/man1/infotocap.1m\",\"share/man/man1/ncursesw6-config.1\",\"share/man/man1/reset.1\",\"share/man/man1/tabs.1\",\"share/man/man1/tic.1m\",\"share/man/man1/toe.1m\",\"share/man/man1/tput.1\",\"share/man/man1/tset.1\",\"share/man/man3/ncurses.3x\",\"share/man/man5/term.5\",\"share/man/man5/terminfo.5\",\"share/man/man7/term.7\",\"share/ncurses/test/Makefile\"],\"source_modified_time\":1767137046,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/tabs,bin/toe,bin/infotocap,bin/captoinfo,bin/tset,bin/reset,bin/clear,bin/ncursesw6-config,bin/tic,bin/infocmp,bin/ncurses6-config,bin/tput"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a8f0853e4ad0fdc945d1997e266013031a7aa5f2bf76c0dd43252edb50e9ff32",
+      "size": 2806,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.6.sonoma",
+        "sh.brew.bottle.digest": "3981626d4214e14e1d01528b4652e0c9ac470c0a63fc2c995b875cd39efd1976",
+        "sh.brew.bottle.size": "2470097",
+        "sh.brew.bottle.installed_size": "9933460",
+        "sh.brew.license": "X11-distribute-modifications-variant",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.8-15-g7543440\",\"changed_files\":[\"bin/ncursesw6-config\",\"lib/pkgconfig/formw.pc\",\"lib/pkgconfig/menuw.pc\",\"lib/pkgconfig/ncurses++w.pc\",\"lib/pkgconfig/ncursesw.pc\",\"lib/pkgconfig/panelw.pc\",\"share/man/man1/infocmp.1m\",\"share/man/man1/infotocap.1m\",\"share/man/man1/ncursesw6-config.1\",\"share/man/man1/reset.1\",\"share/man/man1/tabs.1\",\"share/man/man1/tic.1m\",\"share/man/man1/toe.1m\",\"share/man/man1/tput.1\",\"share/man/man1/tset.1\",\"share/man/man3/ncurses.3x\",\"share/man/man5/term.5\",\"share/man/man5/terminfo.5\",\"share/man/man7/term.7\",\"share/ncurses/test/Makefile\"],\"source_modified_time\":1767137046,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/tabs,bin/toe,bin/infotocap,bin/captoinfo,bin/tset,bin/reset,bin/clear,bin/ncursesw6-config,bin/tic,bin/infocmp,bin/ncurses6-config,bin/tput"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:05887c1e268f7dc6df171d3fa3266a862ef3e3c545e9e369eb667826463c27b9",
+      "size": 2916,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "6.6.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "12c037b176c3300398cc53f0f278ba14195ae525cb6188dc085fd07236e5db48",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "2796244",
+        "sh.brew.bottle.installed_size": "11711227",
+        "sh.brew.license": "X11-distribute-modifications-variant",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.8-15-g7543440\",\"changed_files\":[\"bin/ncursesw6-config\",\"lib/pkgconfig/formw.pc\",\"lib/pkgconfig/menuw.pc\",\"lib/pkgconfig/ncurses++w.pc\",\"lib/pkgconfig/ncursesw.pc\",\"lib/pkgconfig/panelw.pc\",\"share/man/man1/infocmp.1\",\"share/man/man1/infotocap.1\",\"share/man/man1/ncursesw6-config.1\",\"share/man/man1/reset.1\",\"share/man/man1/tabs.1\",\"share/man/man1/tic.1\",\"share/man/man1/toe.1\",\"share/man/man1/tput.1\",\"share/man/man1/tset.1\",\"share/man/man3/ncurses.3ncurses\",\"share/man/man5/term.5\",\"share/man/man5/terminfo.5\",\"share/man/man7/term.7\",\"share/ncurses/test/Makefile\"],\"source_modified_time\":1767137046,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/captoinfo,bin/toe,bin/tset,bin/infotocap,bin/clear,bin/tabs,bin/infocmp,bin/tic,bin/reset,bin/ncursesw6-config,bin/ncurses6-config,bin/tput"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-12-31T19:05:17Z",
+    "org.opencontainers.image.description": "Text-based UI library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/ncurses",
+    "org.opencontainers.image.licenses": "X11-distribute-modifications-variant",
+    "org.opencontainers.image.ref.name": "6.6",
+    "org.opencontainers.image.revision": "fc59f72dd7205eb72d3d8abc647f6719f41e4982",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/fc59f72dd7205eb72d3d8abc647f6719f41e4982/Formula/n/ncurses.rb",
+    "org.opencontainers.image.title": "ncurses",
+    "org.opencontainers.image.url": "https://invisible-island.net/ncurses/announce.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "6.6"
+  }
+}

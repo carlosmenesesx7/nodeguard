@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1ce9b190cd6071b7243f46b0a42000cb6d3faaa88dc54cbd2078f49ce081aeb5",
+      "size": 2349,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.14.6_1.arm64_linux.1",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "f6bee14a821f1b72189e1428d1fde1507e4eae4ade75247fa16b15ba48adbef7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1087896",
+        "sh.brew.bottle.installed_size": "3039793",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[],\"source_modified_time\":1632420203,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/bsdwhatis,bin/mandoc,bin/bsdman,bin/bsdsoelim,bin/bsdapropos,bin/demandoc,sbin/bsdmakewhatis"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:95fef488162b9f72b71303ea59266d3285e05cf92ea2e28d3426ae8531260764",
+      "size": 2144,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.14.6_1.arm64_sequoia.1",
+        "sh.brew.bottle.digest": "70ad41c8cf8cff6992d5b628bd25d3a20f5b4308d1cac0e5a5dc32c73e4a51ce",
+        "sh.brew.bottle.size": "510106",
+        "sh.brew.bottle.installed_size": "1392764",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[],\"source_modified_time\":1632420203,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/demandoc,bin/bsdwhatis,bin/bsdsoelim,bin/mandoc,bin/bsdman,bin/bsdapropos,sbin/bsdmakewhatis"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:069038a097759a8626b65b5545b5479be06fd7fb99d43399d85e75e6ff89b45f",
+      "size": 2141,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.14.6_1.arm64_sonoma.1",
+        "sh.brew.bottle.digest": "d452cac1d934d46addb3ad4738d92ec5b61ed555678fa0656445d040aabb7516",
+        "sh.brew.bottle.size": "509568",
+        "sh.brew.bottle.installed_size": "1392908",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[],\"source_modified_time\":1632420203,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/demandoc,bin/bsdwhatis,bin/bsdsoelim,bin/mandoc,bin/bsdman,bin/bsdapropos,sbin/bsdmakewhatis"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b9e0c83e5f8db56537ebceb1f5e9b5ca2a46b1826ee8dbea7f9d05011b1df226",
+      "size": 2136,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.14.6_1.arm64_tahoe.1",
+        "sh.brew.bottle.digest": "025ae8796e204d45e8fee68828ec019cbab0e8e91f34b2fd08b3a6520622f840",
+        "sh.brew.bottle.size": "510095",
+        "sh.brew.bottle.installed_size": "1392762",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[],\"source_modified_time\":1632420203,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/demandoc,bin/bsdwhatis,bin/bsdsoelim,bin/mandoc,bin/bsdman,bin/bsdapropos,sbin/bsdmakewhatis"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a733731c25c0bbe2d52bfb2a9c7fe0df637a0865a403c3238ca0314c7597a388",
+      "size": 2125,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.14.6_1.sonoma.1",
+        "sh.brew.bottle.digest": "69da4a405b25fdd41e53b14db916b83b22546bc83f9531cb50223f72c649b36a",
+        "sh.brew.bottle.size": "518296",
+        "sh.brew.bottle.installed_size": "1302828",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[],\"source_modified_time\":1632420203,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/demandoc,bin/bsdwhatis,bin/bsdsoelim,bin/mandoc,bin/bsdman,bin/bsdapropos,sbin/bsdmakewhatis"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4a7227c8b8860f4ca8f69a77c840041b1a359931a6a580cda13b68f131747b11",
+      "size": 2354,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.14.6_1.x86_64_linux.1",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "00e953d4aff486cf7042ec8adb5cea2069458d739681b0383568b1c8346db23c",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1199154",
+        "sh.brew.bottle.installed_size": "3059651",
+        "sh.brew.license": "ISC",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.13-67-gcf63ae0\",\"changed_files\":[],\"source_modified_time\":1632420203,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/bsdwhatis,bin/demandoc,bin/mandoc,bin/bsdsoelim,bin/bsdapropos,bin/bsdman,sbin/bsdmakewhatis"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-06T14:38:49Z",
+    "org.opencontainers.image.description": "UNIX manpage compiler toolset",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/mandoc",
+    "org.opencontainers.image.licenses": "ISC",
+    "org.opencontainers.image.ref.name": "1.14.6_1-1",
+    "org.opencontainers.image.revision": "43a0e964517b2d02249fe92238b8022c1f83e815",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/43a0e964517b2d02249fe92238b8022c1f83e815/Formula/m/mandoc.rb",
+    "org.opencontainers.image.title": "mandoc",
+    "org.opencontainers.image.url": "https://mandoc.bsd.lv/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.14.6_1"
+  }
+}

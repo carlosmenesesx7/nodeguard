@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:58e24ec9445ca19a9daf3a98a2632cb3767c57026b50d7e24324b138252d6d91",
+      "size": 2107,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.7.5.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "24a79da446d9ca71589c8951de336f0b4851828007ee9ee03f3272b4ccc288e6",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "257106",
+        "sh.brew.bottle.installed_size": "901604",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/expat.pc\"],\"source_modified_time\":1773777600,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/xmlwf"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f4b065441fcded5159ecf675ddf9d2a285aa969c04e6acc278f9d79132b641c8",
+      "size": 2049,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.7.5.arm64_sequoia",
+        "sh.brew.bottle.digest": "266fc399a590e756abd38ce5b2923c397876253704dd4c3fde01816dffb7843e",
+        "sh.brew.bottle.size": "230654",
+        "sh.brew.bottle.installed_size": "729176",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/expat.pc\"],\"source_modified_time\":1773777600,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xmlwf"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f2687e826dbf8b3e927bc36a1b968333244063d33e507d30f40719d5259906bc",
+      "size": 2046,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.7.5.arm64_sonoma",
+        "sh.brew.bottle.digest": "8b5d48b744487494f5649db6f7a971bff4e48aac5fc48b16c19d6622787b04d1",
+        "sh.brew.bottle.size": "232334",
+        "sh.brew.bottle.installed_size": "732920",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/expat.pc\"],\"source_modified_time\":1773777600,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xmlwf"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ceff427f386e0fe392846778476ff8290c411a1c439f51127599938cb1aecf10",
+      "size": 2043,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.7.5.arm64_tahoe",
+        "sh.brew.bottle.digest": "04fed88fc5ea63211829695ae832be622bba9b224f8c84f4882a6776b3f5cca7",
+        "sh.brew.bottle.size": "230468",
+        "sh.brew.bottle.installed_size": "727896",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/expat.pc\"],\"source_modified_time\":1773777600,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26.3\",\"cpu_family\":\"dunno\",\"xcode\":\"26.3\",\"clt\":\"26.3.0.0.1.1771626560\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xmlwf"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:da99aac92a71777c205afdd7607bfeb8495598143a417c373cbfa0bee6e262c6",
+      "size": 2030,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.7.5.sonoma",
+        "sh.brew.bottle.digest": "68d8779156448d1396abf021453156bede9a0c119e35b46f64cb901fe7dc5f8c",
+        "sh.brew.bottle.size": "236627",
+        "sh.brew.bottle.installed_size": "654466",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/expat.pc\"],\"source_modified_time\":1773777600,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/xmlwf"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b7862ae71592f11057b08bcae64664781c7b93c217441899b9c5b44eba241ca4",
+      "size": 2112,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.7.5.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "79b6001a08f1a82a9bd2e23d0048f6d7fd812d14f5526f482ccff75b674dcc39",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "274429",
+        "sh.brew.bottle.installed_size": "906750",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/expat.pc\"],\"source_modified_time\":1773777600,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/xmlwf"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-03-18T19:11:27Z",
+    "org.opencontainers.image.description": "XML 1.0 parser",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/expat",
+    "org.opencontainers.image.licenses": "MIT",
+    "org.opencontainers.image.ref.name": "2.7.5",
+    "org.opencontainers.image.revision": "56ee970f28e7313e76bed302ecca9dc705b20652",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/56ee970f28e7313e76bed302ecca9dc705b20652/Formula/e/expat.rb",
+    "org.opencontainers.image.title": "expat",
+    "org.opencontainers.image.url": "https://libexpat.github.io/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.7.5"
+  }
+}

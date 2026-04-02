@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8ce2b3a362a85fc8c982dc8fecd75f4656eab0d5886cb157d42644207daa16fa",
+      "size": 2176,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.5.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "591376dcb066e3abf120b46895aabe9409aadf8f9577bd2672e52524f05a1952",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "145608",
+        "sh.brew.bottle.installed_size": "428492",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.20-112-gb652f7b\",\"changed_files\":[\"lib/pkgconfig/libxcrypt.pc\"],\"source_modified_time\":1762795943,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:e9ffe4707d96479f3642a3dcc4f2a9c4fcca905c7541dccb1a50b05b0c1a6787",
+      "size": 2118,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.5.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "04b6d0459d587d4137b8fdc9d7a711bf5df1405afae64997d4d8f6016df50e20",
+        "sh.brew.bottle.size": "131438",
+        "sh.brew.bottle.installed_size": "390581",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.20-112-gb652f7b\",\"changed_files\":[\"lib/pkgconfig/libxcrypt.pc\"],\"source_modified_time\":1762795943,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:45a45518673980294368be37e4bedd5c3221f58cbe1fadc1ae27280f6996d503",
+      "size": 2115,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.5.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "6f459775883ffb7e1cd95dfeef36d3f490f20e3dcaa79055d318c46991d31f5f",
+        "sh.brew.bottle.size": "131417",
+        "sh.brew.bottle.installed_size": "390645",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.20-112-gb652f7b\",\"changed_files\":[\"lib/pkgconfig/libxcrypt.pc\"],\"source_modified_time\":1762795943,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0c95ae42c990cd67bda363bfdfa92b58828e1a3da85f95d84fbb6c1835501a20",
+      "size": 2110,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.5.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "45b16874ed374eda84779a795aa32640f86759dd480f470567949b7639a8e3ee",
+        "sh.brew.bottle.size": "131330",
+        "sh.brew.bottle.installed_size": "389171",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.20-112-gb652f7b\",\"changed_files\":[\"lib/pkgconfig/libxcrypt.pc\"],\"source_modified_time\":1762795943,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.1\",\"clt\":\"26.1.0.0.1.1761104275\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:71d63580e9c7ff2270ede508d34229616ab6862fe2a1cefcb80e09396b4bd9fb",
+      "size": 2099,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.5.2.sonoma",
+        "sh.brew.bottle.digest": "909d2e42bae6c62c05e5c52f6f45aa3da6a4c668c6a88f90a0cc6ebb6794f212",
+        "sh.brew.bottle.size": "128954",
+        "sh.brew.bottle.installed_size": "341887",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.20-112-gb652f7b\",\"changed_files\":[\"lib/pkgconfig/libxcrypt.pc\"],\"source_modified_time\":1762795943,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:baec17fb22d0589d4d4d5e7bd3de1880d4284557463fe13b52e84b26963b9691",
+      "size": 2181,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "4.5.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "9319e1e70e1e3e476e421956baaeebc0d7be9c3030897844a3c348fe4dd116a5",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "140458",
+        "sh.brew.bottle.installed_size": "404974",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.20-112-gb652f7b\",\"changed_files\":[\"lib/pkgconfig/libxcrypt.pc\"],\"source_modified_time\":1762795943,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-11-10T20:10:56Z",
+    "org.opencontainers.image.description": "Extended crypt library for descrypt, md5crypt, bcrypt, and others",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libxcrypt",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later",
+    "org.opencontainers.image.ref.name": "4.5.2",
+    "org.opencontainers.image.revision": "cc834f53c6b8ebb43c4406df5e2264e8a70a7789",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/cc834f53c6b8ebb43c4406df5e2264e8a70a7789/Formula/lib/libxcrypt.rb",
+    "org.opencontainers.image.title": "libxcrypt",
+    "org.opencontainers.image.url": "https://github.com/besser82/libxcrypt",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "4.5.2"
+  }
+}

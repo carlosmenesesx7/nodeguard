@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1a31f3372d5055ff48a531275cb9c25f78bcd9b654ecfad5367f1a67be301d4c",
+      "size": 5506,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "bc6fdd8e4ea046dbe90ba929765570c3066d4463d37da4e055b69297c954994c",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "205459",
+        "sh.brew.bottle.installed_size": "742119",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.3-39-g54c8b12\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"pcre2\",\"version\":\"10.45\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"10.45\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.4.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.8\",\"declared_directly\":false},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-05-20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-05-20\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.0\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.0\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":0,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.3_1\",\"declared_directly\":false},{\"full_name\":\"dbus\",\"version\":\"1.16.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.16.2\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.40.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.40.4\",\"declared_directly\":false},{\"full_name\":\"glib\",\"version\":\"2.84.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.84.2\",\"declared_directly\":false},{\"full_name\":\"libcap\",\"version\":\"2.76\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.76\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"systemd\",\"version\":\"257.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"257.5\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:24c7e781a1876044007fa7589bdc8d1d3b593164a0fae40113e484da5d8fb8c8",
+      "size": 2056,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.arm64_sequoia",
+        "sh.brew.bottle.digest": "197c6a9c929f846cacdb7e79376a706ba295bf7f9a5aa49ac9712b9d6a571962",
+        "sh.brew.bottle.size": "192903",
+        "sh.brew.bottle.installed_size": "642287",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.3-39-g54c8b12\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7eb6ab22c22762a67ef9acc5600f1fe20eb3eb771e946a58f6f5cf7dcef36d4d",
+      "size": 2053,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.arm64_sonoma",
+        "sh.brew.bottle.digest": "63ea19dcae1a6e9b82b9d2d8497367f29b2baf337aa30bf69abc1a37252078b3",
+        "sh.brew.bottle.size": "193684",
+        "sh.brew.bottle.installed_size": "643159",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.3-39-g54c8b12\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c2f1a2b47d7eecd96fd18f4d1945a52200d67095d64753658d5de1c34fecd8a3",
+      "size": 2056,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.arm64_ventura",
+        "sh.brew.bottle.digest": "c5c93e938ae936589f352d213e24cff2a02990e08efb8e7620c45075b1301f50",
+        "sh.brew.bottle.size": "195029",
+        "sh.brew.bottle.installed_size": "643919",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.3-39-g54c8b12\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7cc8ff847ca4a166948a5625e3c15e1eacba5d6bf1be09b9c33fc38c0ab6a3a0",
+      "size": 2037,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.sonoma",
+        "sh.brew.bottle.digest": "ace918b6a959314990d4653e81496f99594e2999f5a36fd61f538fa3b469db3f",
+        "sh.brew.bottle.size": "182867",
+        "sh.brew.bottle.installed_size": "560420",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.3-39-g54c8b12\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cebbfb5afd3dfb789fea11a29c69dda153b93117fb8404e9259c9bf901fc4c17",
+      "size": 2040,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.ventura",
+        "sh.brew.bottle.digest": "ecf25be7aa95c979306f6054a6de8aa4dadd380f17341ffdda2259e48a01a213",
+        "sh.brew.bottle.size": "183467",
+        "sh.brew.bottle.installed_size": "593484",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.3-39-g54c8b12\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:16c45c2d52430bc2f12f2f8195c9b6ea2d0b189999c271772cd9642a7c31ae9e",
+      "size": 5511,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "70face621f55df85bc16900355953c3ea8f522d7e9f030df490c3494e8898b2c",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "201488",
+        "sh.brew.bottle.installed_size": "680185",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.3-39-g54c8b12\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"bottle_rebuild\":2,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"pcre2\",\"version\":\"10.45\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"10.45\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.4.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.4.8\",\"declared_directly\":false},{\"full_name\":\"mpdecimal\",\"version\":\"4.0.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.0.1\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2025-05-20\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-05-20\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.0\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.13\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"8.2.13\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.50.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.50.0\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.8.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"5.8.1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.1\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"bottle_rebuild\":0,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"python@3.13\",\"version\":\"3.13.3\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"3.13.3_1\",\"declared_directly\":false},{\"full_name\":\"dbus\",\"version\":\"1.16.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.16.2\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.40.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.40.4\",\"declared_directly\":false},{\"full_name\":\"glib\",\"version\":\"2.84.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.84.2\",\"declared_directly\":false},{\"full_name\":\"libcap\",\"version\":\"2.76\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.76\",\"declared_directly\":false},{\"full_name\":\"lz4\",\"version\":\"1.10.0\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"1.10.0\",\"declared_directly\":false},{\"full_name\":\"zstd\",\"version\":\"1.5.7\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.5.7\",\"declared_directly\":false},{\"full_name\":\"systemd\",\"version\":\"257.5\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"257.5\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:acb84f8a2b87133be64b15defa6720d6557ea32a399bece37e420c5529dfb0bc",
+      "size": 2049,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.0.29.arm64_tahoe",
+        "sh.brew.bottle.digest": "b7e94047913739bcf330be575aa4a6f09f4008ffc7c6289fd7f52a0af8ca55f2",
+        "sh.brew.bottle.size": "192694",
+        "sh.brew.bottle.installed_size": "641102",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"lib/pkgconfig/libusb-1.0.pc\"],\"source_modified_time\":1748803131,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-06-01T23:10:35Z",
+    "org.opencontainers.image.description": "Library for USB device access",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libusb",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later",
+    "org.opencontainers.image.ref.name": "1.0.29",
+    "org.opencontainers.image.revision": "5a719b17d6134691bbca82cf191e8919ee4a9814",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/5a719b17d6134691bbca82cf191e8919ee4a9814/Formula/lib/libusb.rb",
+    "org.opencontainers.image.title": "libusb",
+    "org.opencontainers.image.url": "https://libusb.info/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.0.29"
+  }
+}

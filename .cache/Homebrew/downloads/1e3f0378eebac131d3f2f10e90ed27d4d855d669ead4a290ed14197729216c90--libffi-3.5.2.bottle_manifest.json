@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d5f9fc510b30bea6f93745b3a8e936f5d94672f793c87ae014a901af49fedb69",
+      "size": 2103,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "85cdf235032a05637b9b30c3deb0d14c7673a3aefe97fed3c6d781c159d89a9a",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "250116",
+        "sh.brew.bottle.installed_size": "916088",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13-74-ga29a643\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8a0c414883a3b6e3a3df5ab4a202d79df17628e71c15e4d0c20ce1cfaea1e049",
+      "size": 2045,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "e53361765ab81aa4bbead3bf1821678d4fb34b68355fe42f43032c7b99cf7224",
+        "sh.brew.bottle.size": "221792",
+        "sh.brew.bottle.installed_size": "830294",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13-74-ga29a643\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:aef2ad00c74fa1b3d42727ef8b441cb8b857c1442c77441dc869c3d29eb387cf",
+      "size": 2042,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "b7080567d415b510513d3d83db312e530fd1b13d49cb9831fc5a67b9c531d0a3",
+        "sh.brew.bottle.size": "221719",
+        "sh.brew.bottle.installed_size": "830582",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13-74-ga29a643\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4f3f84a976605956cb1aac83877c6a8da492fbb3ae90d545ed600b576d235f7b",
+      "size": 2045,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.arm64_ventura",
+        "sh.brew.bottle.digest": "a6eee79d333e8773beb401cb710a4ab26380c2e14d7f90583b92ac87328c6ab4",
+        "sh.brew.bottle.size": "221714",
+        "sh.brew.bottle.installed_size": "830550",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13-74-ga29a643\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:602bba87fe0dd51e81fa69c2c8d038fcdfbd14e725781b1f9f1902dda55e7fa1",
+      "size": 2026,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.sonoma",
+        "sh.brew.bottle.digest": "4d9e57a4b8bb66b3dd966a931b0be8e916b2587bec5886b8af519dcafe276b13",
+        "sh.brew.bottle.size": "237745",
+        "sh.brew.bottle.installed_size": "722232",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13-74-ga29a643\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:78c75d244fcac0b187937f18770cdbb212195db91093e951e90ce80af7194e55",
+      "size": 2029,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.ventura",
+        "sh.brew.bottle.digest": "4b53c8b6527e22e65de26598797eb3ec2402c152295a34b5e31149e9376a0e02",
+        "sh.brew.bottle.size": "238091",
+        "sh.brew.bottle.installed_size": "755136",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13-74-ga29a643\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bf8eaa4f27d787aa91c6d7029550bd865db50a02980172028498480f80dda0aa",
+      "size": 2108,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "55b77eb2bb125870f6e1ec41e4717f0bc7c7fe294e41b59aaef006be6bdf60bd",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "255495",
+        "sh.brew.bottle.installed_size": "834400",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.13-74-ga29a643\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6363098cdef20dded469c5655f281fdb86cf8492bcca3275f0e818f76b8e6780",
+      "size": 2037,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.5.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "564ce412bbf20deb184e488fe9b1cbf94b5c770965e48567c829a5f580141a95",
+        "sh.brew.bottle.size": "221915",
+        "sh.brew.bottle.installed_size": "829588",
+        "sh.brew.license": "MIT",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-22-g8ef7a9d\",\"changed_files\":[\"lib/pkgconfig/libffi.pc\"],\"source_modified_time\":1754117919,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-08-02T08:08:40Z",
+    "org.opencontainers.image.description": "Portable Foreign Function Interface library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libffi",
+    "org.opencontainers.image.licenses": "MIT",
+    "org.opencontainers.image.ref.name": "3.5.2",
+    "org.opencontainers.image.revision": "48d1bd4ff0aae71cc414828f64b36eb75f956711",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/48d1bd4ff0aae71cc414828f64b36eb75f956711/Formula/lib/libffi.rb",
+    "org.opencontainers.image.title": "libffi",
+    "org.opencontainers.image.url": "https://sourceware.org/libffi/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.5.2"
+  }
+}

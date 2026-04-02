@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7ff84353778dd23cc51ff9e2147626041e94222a5ddbefe36b1521951a56e118",
+      "size": 2554,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "5.15.0-1039-azure"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "f1bc6d528c1c0e53c2eecb599e5127070654a7bdfb9acb0232cfd08bfaf38efd",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "330222",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.4\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20221030-3.1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.21\",\"declared_directly\":true},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.35\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"5.15.0-1039-azure\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:036202c5656c4b5ac3e1ec3ae4ab8c49bb7121b5fcf9488f7ba4dec7f67193e1",
+      "size": 2247,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.arm64_monterey",
+        "sh.brew.bottle.digest": "ac7a6ac5d43047181241674de948c84e57fd26e2ae070dcb2bad243f57ffb0db",
+        "sh.brew.bottle.size": "292423",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:89081ec58b5ee08f5232ba7f5e2e95b5eae8047f701d681efadc70b7e8daac65",
+      "size": 2259,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.ventura",
+        "sh.brew.bottle.digest": "b0ad0b2d1e4394623692dd7c32014677dcc364c32bae2a9a27913485ca07f91d",
+        "sh.brew.bottle.size": "291079",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\",\"share/man/man8/saslauthd.8\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"penryn\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3c40c2d8708efe7e6bd88cfc3b67aa52ce9679ac5694b96d0dc2a8e9f333f5ce",
+      "size": 2244,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.arm64_ventura",
+        "sh.brew.bottle.digest": "a842b727db6d438e03d495a94f5dd63e2f7a6634809cbe3b621195e180d56f64",
+        "sh.brew.bottle.size": "292680",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"dunno\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7935794edc6186d796a52f6c402cfae2c58f8a6933ee2aa36ce9c4f6b3128d0a",
+      "size": 2262,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.monterey",
+        "sh.brew.bottle.digest": "1e9df5f50cc72d9561b8f8985d3a7520db0de782c45a8d32530c1cd5bf9e9db5",
+        "sh.brew.bottle.size": "293038",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\",\"share/man/man8/saslauthd.8\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:32ae4b170751c9e2580ed7aba424db06001902b77509b25cd8dad6dbda980b74",
+      "size": 2263,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.arm64_big_sur",
+        "sh.brew.bottle.digest": "dfa2cf772e87d85128b4ae58ed7f6d85ff078d673e5a49496fcad0b17af7b3e4",
+        "sh.brew.bottle.size": "298734",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9f7521398aa4764d17b62ec340efec519b3a3b398a5f5718904998cb95cf2491",
+      "size": 2261,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.big_sur",
+        "sh.brew.bottle.digest": "abf53f0d9551994232096d88a1e312c50ec2f9465730e734c3af75db46016103",
+        "sh.brew.bottle.size": "297734",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\",\"share/man/man8/saslauthd.8\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:1f937fc733b6ad6e405eb1fb54e63040e095a86f087757ade06eafc1778b927c",
+      "size": 2241,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.arm64_sonoma",
+        "sh.brew.bottle.digest": "8cb90c0b643e0626e2dc31287654b45a6bbda61a2077879a8d29a47b793ded55",
+        "sh.brew.bottle.size": "291476",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.13-80-g5ec560a\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:738d0e28ba89e17270931ab9593e7be0a26b917aef06873566e80c07e7569828",
+      "size": 2256,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.sonoma",
+        "sh.brew.bottle.digest": "5112a83906ea31b699c5a1ee149729298c160585cdc1c65702a81b6de5318193",
+        "sh.brew.bottle.size": "290163",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.1.13-80-g5ec560a\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\",\"share/man/man8/saslauthd.8\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-08-22\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.3\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"15.0\",\"clt\":\"15.0.0.0.1.1694021235\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:158d1c070b97c1d994d5d6d20e4ce9ac78ffc07a5aabc7443318ad1e1b30d9ea",
+      "size": 2607,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.arm64_sequoia",
+        "sh.brew.bottle.digest": "da30f7a99a52b40b17ca249fe2a518a556aba23a8bec5cca7b1c5b4dac577239",
+        "sh.brew.bottle.size": "291191",
+        "sh.brew.bottle.installed_size": "1581048",
+        "sh.brew.license": "BSD-3-Clause-Attribution",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.3.20-75-gd2c443a\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2024-07-02\",\"revision\":0,\"pkg_version\":\"2024-07-02\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.3.2\",\"revision\":0,\"pkg_version\":\"3.3.2\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.21.3\",\"revision\":0,\"pkg_version\":\"1.21.3\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15\",\"cpu_family\":\"dunno\",\"xcode\":\"16.0\",\"clt\":\"16.0.0.0.1.1724870825\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "sbin/pluginviewer,sbin/saslauthd,sbin/sasldblistusers2,sbin/saslpasswd2,sbin/testsaslauthd"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0646ba6a2bc11a58758bab8ea0393bf0a78a80f8ce9a691247d2649679415b84",
+      "size": 2999,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "66658e5a01892c2952754447404b14f73a888c1cd5b97dbed3c6244dc4d62a2a",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "335880",
+        "sh.brew.bottle.installed_size": "1691230",
+        "sh.brew.license": "BSD-3-Clause-Attribution",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.4.24-289-gfd0c3c0\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-02-25\",\"revision\":0,\"pkg_version\":\"2025-02-25\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.4.1\",\"revision\":0,\"pkg_version\":\"3.4.1\",\"declared_directly\":true},{\"full_name\":\"ncurses\",\"version\":\"6.5\",\"revision\":0,\"pkg_version\":\"6.5\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20250104-3.1\",\"revision\":0,\"pkg_version\":\"20250104-3.1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.21.3\",\"revision\":0,\"pkg_version\":\"1.21.3\",\"declared_directly\":true},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.38\",\"revision\":0,\"pkg_version\":\"4.4.38\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "sbin/testsaslauthd,sbin/pluginviewer,sbin/saslauthd"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:04ae7a45aa8f4b6853b37b9ab5444f7f6a8222af1757602d25cba1cb1c006db3",
+      "size": 2664,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.1.28_2.arm64_tahoe",
+        "sh.brew.bottle.digest": "17e620e6b3ab58620c3b6d2f06eca63d45ed857243b19f67b607ed144a68acd0",
+        "sh.brew.bottle.size": "289993",
+        "sh.brew.bottle.installed_size": "1576609",
+        "sh.brew.license": "BSD-3-Clause-Attribution",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-77-g6cb3473\",\"changed_files\":[\"lib/pkgconfig/libsasl2.pc\"],\"source_modified_time\":1645222627,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-09-09\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2025-09-09\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":true},{\"full_name\":\"krb5\",\"version\":\"1.22.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.22.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "sbin/pluginviewer,sbin/saslauthd,sbin/sasldblistusers2,sbin/saslpasswd2,sbin/testsaslauthd"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-06-20",
+    "org.opencontainers.image.description": "Simple Authentication and Security Layer",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/cyrus-sasl",
+    "org.opencontainers.image.license": "BSD-3-Clause-Attribution",
+    "org.opencontainers.image.ref.name": "2.1.28_2",
+    "org.opencontainers.image.revision": "80e9217c560f12180bcfdd30e9a4d564d3365025",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/80e9217c560f12180bcfdd30e9a4d564d3365025/Formula/cyrus-sasl.rb",
+    "org.opencontainers.image.title": "cyrus-sasl",
+    "org.opencontainers.image.url": "https://www.cyrusimap.org/sasl/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.1.28_2"
+  }
+}

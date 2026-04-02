@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a88573be43371929a16b60d50b57e8df1733e85f90dd84591e0ed3f48f1e2617",
+      "size": 2457,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "411e940ef2c87423f8c0ed34427aa5235e0bc702b40943e3564878a62c76d420",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1097622",
+        "sh.brew.bottle.installed_size": "3965965",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.8-87-g4fd7c6f\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/pkcs1-conv,bin/nettle-lfib-stream,bin/sexp-conv,bin/nettle-pbkdf2,bin/nettle-hash"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3ee87d0a023d6918c8643eb838810407dd85dae5b761a17ad0cbbcc9f8ea46d9",
+      "size": 2397,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.4"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.arm64_sequoia",
+        "sh.brew.bottle.digest": "12c88e8d20a6b5161aa759820710b0d793212f46be7d48933e4519198480bd85",
+        "sh.brew.bottle.size": "988478",
+        "sh.brew.bottle.installed_size": "2877096",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.8-87-g4fd7c6f\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.4\",\"cpu_family\":\"dunno\",\"xcode\":\"16.3\",\"clt\":\"16.3.0.0.1.1742442376\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sexp-conv,bin/nettle-pbkdf2,bin/pkcs1-conv,bin/nettle-hash,bin/nettle-lfib-stream"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:22e2fb0d79700e20a4625da9ce78c62d4144a4430cd35d127fc30caca53713d8",
+      "size": 2394,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.arm64_sonoma",
+        "sh.brew.bottle.digest": "57596e345b70dbb3debba5d8ba9b90147963f62e25022c2661a3672f25304753",
+        "sh.brew.bottle.size": "990424",
+        "sh.brew.bottle.installed_size": "2880752",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.8-87-g4fd7c6f\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sexp-conv,bin/nettle-pbkdf2,bin/pkcs1-conv,bin/nettle-hash,bin/nettle-lfib-stream"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ee80a7f1b74ab81a6d04261abd9860f369b05f66f8d75418a080cd0558d5d5ca",
+      "size": 2397,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.arm64_ventura",
+        "sh.brew.bottle.digest": "a5f3b6f969357a94626cc52f6e5869a77a0c6fe8bc5ab4fc491ea83ae6986e65",
+        "sh.brew.bottle.size": "994791",
+        "sh.brew.bottle.installed_size": "2884592",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.8-87-g4fd7c6f\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"dunno\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/sexp-conv,bin/nettle-pbkdf2,bin/pkcs1-conv,bin/nettle-hash,bin/nettle-lfib-stream"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d5ae5af2405a324a8886a1a18b408088fca22033374b9c9ae1a6a152e31986fa",
+      "size": 2378,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.sonoma",
+        "sh.brew.bottle.digest": "46f05ed1c965061f176755083b8a14e6f8cfc3543201d95691bc2a4090309152",
+        "sh.brew.bottle.size": "955670",
+        "sh.brew.bottle.installed_size": "2583580",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.8-89-g415c0de\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.7\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sexp-conv,bin/nettle-pbkdf2,bin/pkcs1-conv,bin/nettle-hash,bin/nettle-lfib-stream"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fbdbda97577b3d22d6af31835ddbb4f4b35e87336e3401dbb1d919dce07fffa4",
+      "size": 2381,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.ventura",
+        "sh.brew.bottle.digest": "d82f1ec725dc230650b93facd5d8b5d7f0c2bd6f76b0aa7c6a9d6c3a154e4e91",
+        "sh.brew.bottle.size": "962817",
+        "sh.brew.bottle.installed_size": "2756388",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.8-89-g415c0de\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.7\",\"cpu_family\":\"penryn\",\"xcode\":\"15.2\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}",
+        "sh.brew.path_exec_files": "bin/sexp-conv,bin/nettle-pbkdf2,bin/pkcs1-conv,bin/nettle-hash,bin/nettle-lfib-stream"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8b797590699ca2e523faee68fa443c807c093a88d8ccdb94488742f59e0ad693",
+      "size": 2462,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "ff4a7452b4dcf2f1ad266f19f5eb5a29e02b5d1215d4bc46f3d4c4ca4b8e6282",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1047138",
+        "sh.brew.bottle.installed_size": "3214747",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.5.8-87-g4fd7c6f\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/sexp-conv,bin/pkcs1-conv,bin/nettle-lfib-stream,bin/nettle-pbkdf2,bin/nettle-hash"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ba9929750dcaa2c8e10668d875467131841d1104575d2cc6e50c687909a8ad68",
+      "size": 2390,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.10.2.arm64_tahoe",
+        "sh.brew.bottle.digest": "f433c0830169086cae47237fc4fe4b8c71021ec9683006db96e066ff0b883030",
+        "sh.brew.bottle.size": "987620",
+        "sh.brew.bottle.installed_size": "2872057",
+        "sh.brew.license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.10-33-g34be148\",\"changed_files\":[\"lib/pkgconfig/hogweed.pc\",\"lib/pkgconfig/nettle.pc\"],\"source_modified_time\":1750962543,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.0\",\"clt\":\"26.0.0.0.1.1756965055\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/sexp-conv,bin/nettle-pbkdf2,bin/pkcs1-conv,bin/nettle-hash,bin/nettle-lfib-stream"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-06-26T20:23:27Z",
+    "org.opencontainers.image.description": "Low-level cryptographic library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/nettle",
+    "org.opencontainers.image.licenses": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "org.opencontainers.image.ref.name": "3.10.2",
+    "org.opencontainers.image.revision": "cd778fcd24ac158c857a5d9f189119e9a3689b7b",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/cd778fcd24ac158c857a5d9f189119e9a3689b7b/Formula/n/nettle.rb",
+    "org.opencontainers.image.title": "nettle",
+    "org.opencontainers.image.url": "https://www.lysator.liu.se/~nisse/nettle/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.10.2"
+  }
+}

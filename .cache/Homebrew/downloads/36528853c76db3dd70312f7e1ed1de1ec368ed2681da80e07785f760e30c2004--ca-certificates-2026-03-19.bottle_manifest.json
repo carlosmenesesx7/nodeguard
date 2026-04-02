@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:933e8606f71c4a736ba376cf36b2412b81454891f7b986bdb3125915aad072b6",
+      "size": 2103,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2026-03-19.all",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "4df487bca3b0ad9a1b311e59d2da8925b42ad870c74a7426713b0a9291a53bb3",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "132419",
+        "sh.brew.bottle.installed_size": "252010",
+        "sh.brew.license": "MPL-2.0",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[],\"source_modified_time\":1773893522,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-03-19T05:26:58Z",
+    "org.opencontainers.image.description": "Mozilla CA certificate store",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/ca-certificates",
+    "org.opencontainers.image.licenses": "MPL-2.0",
+    "org.opencontainers.image.ref.name": "2026-03-19",
+    "org.opencontainers.image.revision": "1da0660729020a77b500f5dc39420726f30cefe8",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/1da0660729020a77b500f5dc39420726f30cefe8/Formula/c/ca-certificates.rb",
+    "org.opencontainers.image.title": "ca-certificates",
+    "org.opencontainers.image.url": "https://curl.se/docs/caextract.html",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2026-03-19"
+  }
+}

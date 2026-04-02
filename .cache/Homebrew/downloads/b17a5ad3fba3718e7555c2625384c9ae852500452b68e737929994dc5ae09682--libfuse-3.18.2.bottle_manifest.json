@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:254487d689fdafe6b45a9734197eefceac6e8e29cdc99fd4b891cee1df3d392e",
+      "size": 2242,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.18.2.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "43415522a85fbbd0e9b8af7437f478c819d9e69b7f30465fb47e5aad72a53ab3",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "203682",
+        "sh.brew.bottle.installed_size": "1074311",
+        "sh.brew.license": "LGPL-2.1-only OR GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/fuse3.pc\"],\"source_modified_time\":1773868836,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/fusermount3,sbin/mount.fuse3"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b109d5d6151f3898a1626ce366fed0a43b0a58bd6a6b3166f40380b3c9a2cab0",
+      "size": 2246,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.18.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "325ce1e24b8d07eb564ad1e4af18057df95d37bf65f1d718788b721b70379c30",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "203942",
+        "sh.brew.bottle.installed_size": "824529",
+        "sh.brew.license": "LGPL-2.1-only OR GPL-2.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.1.0-69-gc00096c\",\"changed_files\":[\"lib/pkgconfig/fuse3.pc\"],\"source_modified_time\":1773868836,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/fusermount3,sbin/mount.fuse3"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-03-18T23:27:42Z",
+    "org.opencontainers.image.description": "Reference implementation of the Linux FUSE interface",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libfuse",
+    "org.opencontainers.image.licenses": "LGPL-2.1-only OR GPL-2.0-only",
+    "org.opencontainers.image.ref.name": "3.18.2",
+    "org.opencontainers.image.revision": "bb5dcf8b3366ebcc69b450846a8633d606af2779",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/bb5dcf8b3366ebcc69b450846a8633d606af2779/Formula/lib/libfuse.rb",
+    "org.opencontainers.image.title": "libfuse",
+    "org.opencontainers.image.url": "https://github.com/libfuse/libfuse",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.18.2"
+  }
+}

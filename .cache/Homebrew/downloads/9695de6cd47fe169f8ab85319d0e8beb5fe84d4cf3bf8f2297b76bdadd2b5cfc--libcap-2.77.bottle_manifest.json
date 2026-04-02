@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8f07ea5a077ac721237dcb3a82fc0ac32c5b48a6e6dcd9481136d9234440105f",
+      "size": 2292,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.77.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "6cafec8e7f42270d9bb2c5dac6128cbbf9d0d09095aa3d39d63d23a92ec663c7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "131198",
+        "sh.brew.bottle.installed_size": "1057425",
+        "sh.brew.license": "BSD-3-Clause AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.18-50-g0d9b9b4\",\"changed_files\":[\"lib/pkgconfig/libcap.pc\",\"lib/pkgconfig/libpsx.pc\"],\"source_modified_time\":1761503276,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "sbin/capsh,sbin/getcap,sbin/getpcaps,sbin/setcap"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b6c7f6293bfbab1ecfd8847d16cc4e4db66c6bccf7dd3036f8573cc59c797e64",
+      "size": 2296,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.77.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "564227961f58a88d94ddea146625a6aba87f456f8a66b06e005c0c6f53552956",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "123033",
+        "sh.brew.bottle.installed_size": "492707",
+        "sh.brew.license": "BSD-3-Clause AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.6.18-50-g0d9b9b4\",\"changed_files\":[\"lib/pkgconfig/libcap.pc\",\"lib/pkgconfig/libpsx.pc\"],\"source_modified_time\":1761503276,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "sbin/setcap,sbin/capsh,sbin/getcap,sbin/getpcaps"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2025-10-26T23:15:08Z",
+    "org.opencontainers.image.description": "User-space interfaces to POSIX 1003.1e capabilities",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libcap",
+    "org.opencontainers.image.licenses": "BSD-3-Clause AND GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "2.77",
+    "org.opencontainers.image.revision": "f8933177bce89494131b14c7927a76a460a3ce1a",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/f8933177bce89494131b14c7927a76a460a3ce1a/Formula/lib/libcap.rb",
+    "org.opencontainers.image.title": "libcap",
+    "org.opencontainers.image.url": "https://sites.google.com/site/fullycapable/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.77"
+  }
+}

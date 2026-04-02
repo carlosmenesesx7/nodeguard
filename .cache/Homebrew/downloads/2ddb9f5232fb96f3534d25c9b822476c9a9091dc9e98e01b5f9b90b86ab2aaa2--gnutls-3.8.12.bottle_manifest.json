@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c30d4cf3108ca2cccb6738724afe2501a1bdfeecfb608bce38b5fdc5c37cbda7",
+      "size": 4366,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.8.12.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "ee21922877570b314f7457e9030fd915ca55ea6c0c343c8ccfce82b1f4914c5e",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3541518",
+        "sh.brew.bottle.installed_size": "13589354",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-19-gea0351c\",\"changed_files\":[\"lib/pkgconfig/gnutls-dane.pc\",\"lib/pkgconfig/gnutls.pc\"],\"source_modified_time\":1770648579,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":true},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"nettle\",\"version\":\"3.10.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.10.2\",\"declared_directly\":true},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":false},{\"full_name\":\"p11-kit\",\"version\":\"0.26.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26.2\",\"declared_directly\":true},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":false},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.4\",\"declared_directly\":false},{\"full_name\":\"unbound\",\"version\":\"1.24.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.2\",\"declared_directly\":true},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/gnutls-certtool,bin/gnutls-cli-debug,bin/p11tool,bin/danetool,bin/ocsptool,bin/psktool,bin/gnutls-cli,bin/gnutls-serv"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:550154950546fc5ec53d0232d0ae67b0878ee65326d29b39e8297f46ff3ad544",
+      "size": 4009,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.8.12.arm64_sequoia",
+        "sh.brew.bottle.digest": "2c852d43e0792be1e1091677c8bd3021c69b6d4cd237ea35918c033893f9ab1b",
+        "sh.brew.bottle.size": "3275205",
+        "sh.brew.bottle.installed_size": "12111492",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-19-gea0351c\",\"changed_files\":[\"ChangeLog\",\"lib/pkgconfig/gnutls-dane.pc\",\"lib/pkgconfig/gnutls.pc\"],\"source_modified_time\":1770648579,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":true},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"nettle\",\"version\":\"3.10.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.10.2\",\"declared_directly\":true},{\"full_name\":\"p11-kit\",\"version\":\"0.26.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26.2\",\"declared_directly\":true},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":false},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":false},{\"full_name\":\"unbound\",\"version\":\"1.24.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gnutls-serv,bin/psktool,bin/gnutls-cli-debug,bin/gnutls-certtool,bin/ocsptool,bin/p11tool,bin/danetool,bin/gnutls-cli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:935187c4e4c3c844160bf873857742dcd4c73a10ce8cbe76a9d25bc134dee1c5",
+      "size": 4006,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.8.12.arm64_sonoma",
+        "sh.brew.bottle.digest": "da087cf434671200e3c1b77f21341d9b5deb6e3df64b3868cc21212b965f9358",
+        "sh.brew.bottle.size": "3199362",
+        "sh.brew.bottle.installed_size": "11681812",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-19-gea0351c\",\"changed_files\":[\"ChangeLog\",\"lib/pkgconfig/gnutls-dane.pc\",\"lib/pkgconfig/gnutls.pc\"],\"source_modified_time\":1770648579,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":true},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"nettle\",\"version\":\"3.10.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.10.2\",\"declared_directly\":true},{\"full_name\":\"p11-kit\",\"version\":\"0.26.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26.2\",\"declared_directly\":true},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":false},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":false},{\"full_name\":\"unbound\",\"version\":\"1.24.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gnutls-serv,bin/psktool,bin/gnutls-cli-debug,bin/gnutls-certtool,bin/ocsptool,bin/p11tool,bin/danetool,bin/gnutls-cli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9f022ea2a1129cc33d3724597d492b01a7737ed58deae1084f9d4f4407bdbb14",
+      "size": 4001,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.8.12.arm64_tahoe",
+        "sh.brew.bottle.digest": "df6bfd97301eefdd39186a84e2089cd6b2ac62655a5bcf005e23c1b1e6631628",
+        "sh.brew.bottle.size": "3265733",
+        "sh.brew.bottle.installed_size": "12069026",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-19-gea0351c\",\"changed_files\":[\"ChangeLog\",\"lib/pkgconfig/gnutls-dane.pc\",\"lib/pkgconfig/gnutls.pc\"],\"source_modified_time\":1770648579,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":true},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"nettle\",\"version\":\"3.10.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.10.2\",\"declared_directly\":true},{\"full_name\":\"p11-kit\",\"version\":\"0.26.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26.2\",\"declared_directly\":true},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":false},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":false},{\"full_name\":\"unbound\",\"version\":\"1.24.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gnutls-serv,bin/psktool,bin/gnutls-cli-debug,bin/gnutls-certtool,bin/ocsptool,bin/p11tool,bin/danetool,bin/gnutls-cli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f7fabda67da4accb9d41b5fce7d1298a42cdd3b1f7705f50da0ee565f29fd45b",
+      "size": 3976,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.8.12.sonoma",
+        "sh.brew.bottle.digest": "6dd581133c9f496152ed69d45129f53408035392101cd9c44d64649d0fba8bfb",
+        "sh.brew.bottle.size": "3311656",
+        "sh.brew.bottle.installed_size": "11321488",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-19-gea0351c\",\"changed_files\":[\"lib/pkgconfig/gnutls-dane.pc\",\"lib/pkgconfig/gnutls.pc\"],\"source_modified_time\":1770648579,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":true},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"nettle\",\"version\":\"3.10.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.10.2\",\"declared_directly\":true},{\"full_name\":\"p11-kit\",\"version\":\"0.26.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26.2\",\"declared_directly\":true},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":false},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":false},{\"full_name\":\"unbound\",\"version\":\"1.24.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gnutls-serv,bin/psktool,bin/gnutls-cli-debug,bin/gnutls-certtool,bin/ocsptool,bin/p11tool,bin/danetool,bin/gnutls-cli"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f072c533f4312af64c14e7e42ace38fcd91996e0b6b3fb36c9ef3cf7c3bee73a",
+      "size": 4371,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "3.8.12.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "d99e673012799fbe5648e8f511230233f9280a6aaba82bb5e3fa4b257bc4d9e0",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "3597767",
+        "sh.brew.bottle.installed_size": "12655700",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-3.0-only",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-19-gea0351c\",\"changed_files\":[\"lib/pkgconfig/gnutls-dane.pc\",\"lib/pkgconfig/gnutls.pc\"],\"source_modified_time\":1770648579,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2025-12-02\",\"revision\":0,\"bottle_rebuild\":1,\"pkg_version\":\"2025-12-02\",\"declared_directly\":true},{\"full_name\":\"gmp\",\"version\":\"6.3.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"6.3.0\",\"declared_directly\":true},{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":true},{\"full_name\":\"libidn2\",\"version\":\"2.3.8\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.8\",\"declared_directly\":true},{\"full_name\":\"libtasn1\",\"version\":\"4.21.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"4.21.0\",\"declared_directly\":true},{\"full_name\":\"nettle\",\"version\":\"3.10.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.10.2\",\"declared_directly\":true},{\"full_name\":\"libffi\",\"version\":\"3.5.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.5.2\",\"declared_directly\":false},{\"full_name\":\"p11-kit\",\"version\":\"0.26.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"0.26.2\",\"declared_directly\":true},{\"full_name\":\"openssl@3\",\"version\":\"3.6.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"3.6.1\",\"declared_directly\":false},{\"full_name\":\"libevent\",\"version\":\"2.1.12\",\"revision\":1,\"bottle_rebuild\":0,\"pkg_version\":\"2.1.12_1\",\"declared_directly\":false},{\"full_name\":\"libnghttp2\",\"version\":\"1.68.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.68.0\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.7.4\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.7.4\",\"declared_directly\":false},{\"full_name\":\"unbound\",\"version\":\"1.24.2\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.24.2\",\"declared_directly\":true},{\"full_name\":\"zlib-ng-compat\",\"version\":\"2.3.3\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"2.3.3\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/gnutls-cli-debug,bin/gnutls-serv,bin/danetool,bin/gnutls-certtool,bin/gnutls-cli,bin/p11tool,bin/psktool,bin/ocsptool"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-09T23:05:37Z",
+    "org.opencontainers.image.description": "GNU Transport Layer Security (TLS) Library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/gnutls",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later AND GPL-3.0-only",
+    "org.opencontainers.image.ref.name": "3.8.12",
+    "org.opencontainers.image.revision": "dd138b6979d9b3841e4059153febb187a564aa0f",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/dd138b6979d9b3841e4059153febb187a564aa0f/Formula/g/gnutls.rb",
+    "org.opencontainers.image.title": "gnutls",
+    "org.opencontainers.image.url": "https://gnutls.org/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "3.8.12"
+  }
+}

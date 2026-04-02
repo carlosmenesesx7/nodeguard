@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d1652255d3a45cf7e70cd46b1e48729275f8165c0eda8392735d0a85f37d1b05",
+      "size": 2475,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.1.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "9910126e491fb609f3671bcdc0ca9d9aeeb633361dc65fae56def5b5a3d4b7b7",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1739701",
+        "sh.brew.bottle.installed_size": "5197119",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-63-g8d63dba\",\"changed_files\":[\"bin/libgcrypt-config\",\"lib/pkgconfig/libgcrypt.pc\"],\"source_modified_time\":1771593350,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/hmac256,bin/mpicalc,bin/libgcrypt-config,bin/dumpsexp"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0717050912457fadd5928921d8ce9c6b2533c2717050a11a08822f935131f4fb",
+      "size": 2698,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.1.arm64_sequoia",
+        "sh.brew.bottle.digest": "1e90fbea3e8a54c2309a5f54db60159cbf4ac34264e60040e31e48b02c1c9d8c",
+        "sh.brew.bottle.size": "1526815",
+        "sh.brew.bottle.installed_size": "4101697",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-63-g8d63dba\",\"changed_files\":[\"bin/libgcrypt-config\",\"lib/pkgconfig/libgcrypt.pc\"],\"source_modified_time\":1771593350,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dumpsexp,bin/libgcrypt-config,bin/mpicalc,bin/hmac256"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:721a41dafdadb611f6c12b124d2a953ca2bbc3d2fd1363555d0f44a1f6171287",
+      "size": 2695,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.1.arm64_sonoma",
+        "sh.brew.bottle.digest": "885a7de8758e4bd968dd91d1acbd4f090913dc7396aca96503c6fca2c7712001",
+        "sh.brew.bottle.size": "1519631",
+        "sh.brew.bottle.installed_size": "4089537",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-63-g8d63dba\",\"changed_files\":[\"bin/libgcrypt-config\",\"lib/pkgconfig/libgcrypt.pc\"],\"source_modified_time\":1771593350,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dumpsexp,bin/libgcrypt-config,bin/mpicalc,bin/hmac256"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cc91c45a454b7b388091c93aec3b1215f16a6a44f4613da7c6d438f51425df61",
+      "size": 2690,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.1.arm64_tahoe",
+        "sh.brew.bottle.digest": "cff8b6a3c92ffd76aa26ccbcc13e21e10ca6b3b231ded3d35e81e38ed5b05a6d",
+        "sh.brew.bottle.size": "1526416",
+        "sh.brew.bottle.installed_size": "4095839",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-63-g8d63dba\",\"changed_files\":[\"bin/libgcrypt-config\",\"lib/pkgconfig/libgcrypt.pc\"],\"source_modified_time\":1771593350,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dumpsexp,bin/libgcrypt-config,bin/mpicalc,bin/hmac256"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:70f08e15b63245e9d81382fa12958723e45871a2421e79b962c229778ff36058",
+      "size": 2679,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.1.sonoma",
+        "sh.brew.bottle.digest": "41423fc76f133a106758d801991bcd20fcb0dfdc2eed8f1ccbcbb1b324481a16",
+        "sh.brew.bottle.size": "1513220",
+        "sh.brew.bottle.installed_size": "3993157",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-63-g8d63dba\",\"changed_files\":[\"bin/libgcrypt-config\",\"lib/pkgconfig/libgcrypt.pc\"],\"source_modified_time\":1771593350,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":false},{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/dumpsexp,bin/libgcrypt-config,bin/mpicalc,bin/hmac256"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f2ea2646517b5aaf6af4f3fa116c537d09b483e880afabcc0cf41e2c21e48779",
+      "size": 2480,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.12.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "ec18f27e8109b7fb873ad1ead6acb4150af9ffb6c3a2f9f40c6e80c28c73e67e",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1711454",
+        "sh.brew.bottle.installed_size": "4842677",
+        "sh.brew.license": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-63-g8d63dba\",\"changed_files\":[\"bin/libgcrypt-config\",\"lib/pkgconfig/libgcrypt.pc\"],\"source_modified_time\":1771593350,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[{\"full_name\":\"libgpg-error\",\"version\":\"1.59\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.59\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/dumpsexp,bin/hmac256,bin/mpicalc,bin/libgcrypt-config"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-20T14:40:40Z",
+    "org.opencontainers.image.description": "Cryptographic library based on the code from GnuPG",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libgcrypt",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "1.12.1",
+    "org.opencontainers.image.revision": "d3d793b4bd3d4fdb90157693273d472433b5e839",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/d3d793b4bd3d4fdb90157693273d472433b5e839/Formula/lib/libgcrypt.rb",
+    "org.opencontainers.image.title": "libgcrypt",
+    "org.opencontainers.image.url": "https://gnupg.org/related_software/libgcrypt/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.12.1"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f1af08f95b9f4840a2152a2e6c2667d7576e1b0a78e773a842f0824e412a740a",
+      "size": 2299,
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.59.arm64_linux",
+        "sh.brew.bottle.cpu.variant": "armv8",
+        "sh.brew.bottle.digest": "1c941ca9f52a119095cf7b07fa119798c05d1712c28c797527b958ec3daae0fa",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "628130",
+        "sh.brew.bottle.installed_size": "2409030",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-59-g45db1ce\",\"changed_files\":[\"bin/gpg-error-config\",\"lib/pkgconfig/gpg-error.pc\"],\"source_modified_time\":1771404048,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"arm\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"armv8\"}}",
+        "sh.brew.path_exec_files": "bin/gpg-error,bin/gpgrt-config,bin/gpg-error-config,bin/yat2m"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:554c01e854961111a2f3a315bec522addef01643e75588521633d2c7efbfa956",
+      "size": 2520,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.59.arm64_sequoia",
+        "sh.brew.bottle.digest": "9d4c4ca00463b61a3d2229a5334e323a2897e83077d2112802d700b8e2b2f4af",
+        "sh.brew.bottle.size": "578386",
+        "sh.brew.bottle.installed_size": "1875717",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-59-g45db1ce\",\"changed_files\":[\"bin/gpg-error-config\",\"lib/pkgconfig/gpg-error.pc\"],\"source_modified_time\":1771404048,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 15.7\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gpg-error,bin/gpgrt-config,bin/gpg-error-config,bin/yat2m"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:81da5e13c80e4913bbfec2bf0aa7fa7f13af267411467120418a6244625655c0",
+      "size": 2517,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.59.arm64_sonoma",
+        "sh.brew.bottle.digest": "ccf4a15cc557216b7fab52ba4c0760d7d80904ca353ded597a2d60ff1686f39c",
+        "sh.brew.bottle.size": "578417",
+        "sh.brew.bottle.installed_size": "1877797",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-59-g45db1ce\",\"changed_files\":[\"bin/gpg-error-config\",\"lib/pkgconfig/gpg-error.pc\"],\"source_modified_time\":1771404048,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"dunno\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gpg-error,bin/gpgrt-config,bin/gpg-error-config,bin/yat2m"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f94214e15158a08a58e740e3d49b73d7c23e52ae402e1aafaae1bbcaf1c27706",
+      "size": 2512,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 26"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.59.arm64_tahoe",
+        "sh.brew.bottle.digest": "755e4e1aee069c7352e12e1d343fee26efbc805f4592941300de2ea3b9c0baa7",
+        "sh.brew.bottle.size": "578045",
+        "sh.brew.bottle.installed_size": "1874267",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-59-g45db1ce\",\"changed_files\":[\"bin/gpg-error-config\",\"lib/pkgconfig/gpg-error.pc\"],\"source_modified_time\":1771404048,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 26\",\"cpu_family\":\"dunno\",\"xcode\":\"26.2\",\"clt\":\"26.2.0.0.1.1764812424\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gpg-error,bin/gpgrt-config,bin/gpg-error-config,bin/yat2m"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:22170e200f036e24738f3329a175fd050e6d8e0792390e8d8a4fa120b875dc97",
+      "size": 2501,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14.8"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.59.sonoma",
+        "sh.brew.bottle.digest": "4ea60f17b51fbd0ced9664250070a4676a2b87e6f9390197106cd1c299958420",
+        "sh.brew.bottle.size": "578711",
+        "sh.brew.bottle.installed_size": "1771948",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-59-g45db1ce\",\"changed_files\":[\"bin/gpg-error-config\",\"lib/pkgconfig/gpg-error.pc\"],\"source_modified_time\":1771404048,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libunistring\",\"version\":\"1.4.1\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.4.1\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"1.0\",\"revision\":0,\"bottle_rebuild\":0,\"pkg_version\":\"1.0\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14.8\",\"cpu_family\":\"penryn\",\"xcode\":\"16.2\",\"clt\":\"16.2.0.0.1.1733547573\",\"preferred_perl\":\"5.34\"}}",
+        "sh.brew.path_exec_files": "bin/gpg-error,bin/gpgrt-config,bin/gpg-error-config,bin/yat2m"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f2236f820642fab76b538d02d582ad1b42d173a54cc7273545b2e38dcae2648d",
+      "size": 2304,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.5"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.59.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "8944d7d755ec39de4a4a052971cf5f8246189f0e3e3c6e2a172ab274925a89ec",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "625662",
+        "sh.brew.bottle.installed_size": "2190522",
+        "sh.brew.license": "LGPL-2.1-or-later",
+        "sh.brew.tab": "{\"homebrew_version\":\"5.0.14-59-g45db1ce\",\"changed_files\":[\"bin/gpg-error-config\",\"lib/pkgconfig/gpg-error.pc\"],\"source_modified_time\":1771404048,\"compiler\":\"gcc-12\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.5\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}",
+        "sh.brew.path_exec_files": "bin/gpg-error-config,bin/yat2m,bin/gpg-error,bin/gpgrt-config"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2026-02-18T11:30:14Z",
+    "org.opencontainers.image.description": "Common error values for all GnuPG components",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libgpg-error",
+    "org.opencontainers.image.licenses": "LGPL-2.1-or-later",
+    "org.opencontainers.image.ref.name": "1.59",
+    "org.opencontainers.image.revision": "5e307d76146a0b2979c8d071a6034904a506db78",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/5e307d76146a0b2979c8d071a6034904a506db78/Formula/lib/libgpg-error.rb",
+    "org.opencontainers.image.title": "libgpg-error",
+    "org.opencontainers.image.url": "https://www.gnupg.org/related_software/libgpg-error/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.59"
+  }
+}
