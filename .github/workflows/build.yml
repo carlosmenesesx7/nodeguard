@@ -19,26 +19,42 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: |
+      - name: Install dependencies
+        run: |
           pip install pyinstaller
           pip install -r requirements.txt || true
 
-      - run: |
-          pyinstaller --onefile nodeguard.py --name nodeguard --collect-all requests
+      - name: Build binary
+        run: |
+          pip install pyinstaller requests
+          pyinstaller --onefile nodeguard.py \
+            --collect-all requests \
+            --collect-all urllib3 \
+            --collect-all certifi \
+            --collect-all charset_normalizer \
+            --collect-all idna
 
-      - run: |
+      - name: Rename binary
+        run: |
           mv dist/nodeguard dist/${{ matrix.output }}
 
+      # -----------------------------
+      # Upload a S3
+      # -----------------------------
       - name: Upload to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-1
         run: |
           pip install awscli
           aws s3 cp dist/${{ matrix.output }} s3://tusaas-bucket/nodeguard/${{ matrix.output }}
+

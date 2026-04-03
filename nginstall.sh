@@ -3,7 +3,19 @@ set -e
 
 APP_NAME="nodeguard"
 INSTALL_DIR="$HOME/bin"
-DOWNLOAD_URL="https://tusaas-bucket.s3.amazonaws.com/nodeguard/nodeguard"
+OS=$(uname | tr '[:upper:]' '[:lower:]')
+ARCH=$(uname -m)
+
+echo "🖥 Detectado: $OS / $ARCH"
+
+if [ "$OS" = "darwin" ]; then
+    DOWNLOAD_URL="https://tusaas-bucket.s3.amazonaws.com/nodeguard/nodeguard-darwin"
+elif [ "$OS" = "linux" ]; then
+    DOWNLOAD_URL="https://tusaas-bucket.s3.amazonaws.com/nodeguard/nodeguard-linux-amd64"
+else
+    echo "❌ Plataforma no soportada: $OS $ARCH"
+    exit 1
+fi
 LAMBDA_API_URL="https://kzpqkztu7f.execute-api.us-east-1.amazonaws.com/generate-api-key"
 
 echo "🚀 Instalando $APP_NAME..."
@@ -150,3 +162,4 @@ echo "source $CONFIG_FILE"
 echo "$APP_NAME"
 echo ""
 echo "✅ NodeGuard listo 🚀"
+
